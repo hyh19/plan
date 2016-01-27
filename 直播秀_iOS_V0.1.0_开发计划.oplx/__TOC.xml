@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="44" y="0" w="1397" h="877">
+  <window x="43" y="0" w="1397" h="877">
     <editing-scenario>p71Pql8D9r6</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1033</split-view-divider-position>
-      <outline x="0" y="0" w="1033" h="766">
+      <split-view-divider-position>1222</split-view-divider-position>
+      <outline x="0" y="208" w="1222" h="766">
         <column name="Notes" width="20"/>
-        <column name="Title" width="276"/>
-        <column name="Effort" width="70"/>
-        <column name="Violations" width="20"/>
-        <column name="Status" width="20"/>
-        <column name="Attachments" width="20"/>
+        <column name="Title" width="357"/>
+        <column name="Assigned" width="84"/>
         <column name="Time" width="68"/>
-        <column name="Prerequisites" width="100"/>
-        <column name="Dependents" width="100"/>
+        <column name="Effort" width="70"/>
         <column name="Start" width="143"/>
         <column name="End" width="145"/>
+        <column name="Status" width="20"/>
         <column name="%Done" width="82"/>
-        <column name="Assigned" width="100"/>
-        <expanded-items idrefs="t9 t59 t23 t39 t29 t13 t47 t1"/>
-        <selected-items-at-filter-time idrefs="t30 t59 t24 t31 t17 t73 t66 t74 t18 t32 t25 t67 t75 t33 t26 t19 t40 t68 t69 t34 t76 t41 t27 t77 t42 t28 t35 t78 t29 t43 t36 t50 t37 t51 t44 t38 t10 t52 t45 t7 t46 t53 t11 t39 t8 t60 t9 t47 t12 t54 t61 t62 t55 t13 t48 t20 t70 t21 t14 t56 t63 t49 t64 t15 t57 t22 t71 t58 t23 t65 t16 t72"/>
+        <column name="Prerequisites" width="100"/>
+        <column name="Dependents" width="100"/>
+        <column name="Attachments" width="20"/>
+        <expanded-items idrefs="t9 t59 t10 t39 t23 t81 t13 t64 t29"/>
       </outline>
-      <gantt-view x="-54" y="0" w="347" h="766">
+      <gantt-view x="0" y="208" w="158" h="766">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -140,15 +138,15 @@
   </window>
   <project>
     <title>直播秀 iOS V0.1.0 开发计划</title>
-    <next-task-id>79</next-task-id>
+    <next-task-id>83</next-task-id>
     <next-resource-id>3</next-resource-id>
     <scenario id="p71Pql8D9r6" name="Actual" filename="Actual.xml"/>
-    <date-display dates="true" times="true" seconds="false"/>
+    <date-display dates="true" times="true" seconds="true"/>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>
     <currency-format>CN¥1,234.56</currency-format>
-    <duration-format hours-per-day="7" hours-per-week="35" hours-per-month="140" hours-per-year="1680" hours="true" days="true"/>
-    <effort-format hours-per-day="7" hours-per-week="35" hours-per-month="140" hours-per-year="1680" hours="true" days="true"/>
+    <duration-format hours-per-day="7" hours-per-week="35" hours-per-month="140" hours-per-year="1680" days="true"/>
+    <effort-format hours-per-day="7" hours-per-week="35" hours-per-month="140" hours-per-year="1680" days="true"/>
     <base-style>
       <style/>
     </base-style>
@@ -193,6 +191,10 @@
         </value>
       </style>
     </not-editable-style>
+<!-- ANY assignedResources.name == "李世杰" -->
+    <filter name="李世杰" flat="0" id="m5DQoto3m8W">YnBsaXN0MDDUAQIDBAUGa2xYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcIDxQcJicpMDQ5Oj1BRUpOUlVeYmZoVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxABgAKAFtIQCxETWk5TLm9iamVjdHOhEoADgBXUCxUWFxgZGhtfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBSADoAEgBLVHR4fIAshIiMkJVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADV8QEHZhbHVlRm9yS2V5UGF0aDrSHwsMKIAH0iorLC1aJGNsYXNzbmFtZVgkY2xhc3Nlc18QEE5TU2VsZkV4cHJlc3Npb26jLC4vXE5TRXhwcmVzc2lvblhOU09iamVjdNIQCzEzoTKACYAM0wsfNTY3OFlOU0tleVBhdGiACxAKgApfEBZhc3NpZ25lZFJlc291cmNlcy5uYW1l0iorOzxfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uozsuL9IqKz4/Xk5TTXV0YWJsZUFycmF5oz5AL1dOU0FycmF50iorQkNfEBNOU0tleVBhdGhFeHByZXNzaW9upEJELi9fEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNGHwtHSElfEA9OU0NvbnN0YW50VmFsdWWADxAAgBHSC0tMTVlOUy5zdHJpbmeAEGNnTk4WZ3DSKitPUF8QD05TTXV0YWJsZVN0cmluZ6NPUS9YTlNTdHJpbmfSKitTVF8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jUy4v1QtWV1hZWltcSF1aTlNNb2RpZmllclhOU05lZ2F0ZVlOU09wdGlvbnNeTlNPcGVyYXRvclR5cGWAExACCBAE0iorX2BfEBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0b3KjX2EvXxATTlNQcmVkaWNhdGVPcGVyYXRvctIqK2NkXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2NlL1tOU1ByZWRpY2F0ZdIqK0BnokAv0ioraWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2llL18QD05TS2V5ZWRBcmNoaXZlctFtblRyb290gAEACAARABoAIwAtADIANwBRAFcAXgB4AIoAkQCTAJUAlwCcAKcAqQCrAK0AtgDKAN0A8wD1APcA+QD7AQYBEAEfATIBPgFAAUIBRAFGAUgBWwFgAWIBZwFyAXsBjgGSAZ8BqAGtAa8BsQGzAboBxAHGAcgBygHjAegCBwILAhACHwIjAisCMAJGAksCYgJpAnsCfQJ/AoEChgKQApICmQKeArACtAK9AsIC3gLiAu0C+AMBAwsDGgMcAx4DHwMhAyYDRANIA14DYwN7A38DiwOQA5MDmAOuA7IDxAPHA8wAAAAAAAACAQAAAAAAAABvAAAAAAAAAAAAAAAAAAADzg==</filter>
+<!-- ANY assignedResources.name == "黄玉辉" -->
+    <filter name="黄玉辉" flat="0" id="hCcZ8Kw8JzP">YnBsaXN0MDDUAQIDBAUGa2xYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFwcIDxQcJicpMDQ5Oj1BRUpOUlVeYmZoVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxABgAKAFtIQCxETWk5TLm9iamVjdHOhEoADgBXUCxUWFxgZGhtfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBSADoAEgBLVHR4fIAshIiMkJVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADV8QEHZhbHVlRm9yS2V5UGF0aDrSHwsMKIAH0iorLC1aJGNsYXNzbmFtZVgkY2xhc3Nlc18QEE5TU2VsZkV4cHJlc3Npb26jLC4vXE5TRXhwcmVzc2lvblhOU09iamVjdNIQCzEzoTKACYAM0wsfNTY3OFlOU0tleVBhdGiACxAKgApfEBZhc3NpZ25lZFJlc291cmNlcy5uYW1l0iorOzxfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uozsuL9IqKz4/Xk5TTXV0YWJsZUFycmF5oz5AL1dOU0FycmF50iorQkNfEBNOU0tleVBhdGhFeHByZXNzaW9upEJELi9fEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNGHwtHSElfEA9OU0NvbnN0YW50VmFsdWWADxAAgBHSC0tMTVlOUy5zdHJpbmeAEGOexHOJj4nSKitPUF8QD05TTXV0YWJsZVN0cmluZ6NPUS9YTlNTdHJpbmfSKitTVF8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jUy4v1QtWV1hZWltcSF1aTlNNb2RpZmllclhOU05lZ2F0ZVlOU09wdGlvbnNeTlNPcGVyYXRvclR5cGWAExACCBAE0iorX2BfEBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0b3KjX2EvXxATTlNQcmVkaWNhdGVPcGVyYXRvctIqK2NkXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2NlL1tOU1ByZWRpY2F0ZdIqK0BnokAv0ioraWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2llL18QD05TS2V5ZWRBcmNoaXZlctFtblRyb290gAEACAARABoAIwAtADIANwBRAFcAXgB4AIoAkQCTAJUAlwCcAKcAqQCrAK0AtgDKAN0A8wD1APcA+QD7AQYBEAEfATIBPgFAAUIBRAFGAUgBWwFgAWIBZwFyAXsBjgGSAZ8BqAGtAa8BsQGzAboBxAHGAcgBygHjAegCBwILAhACHwIjAisCMAJGAksCYgJpAnsCfQJ/AoEChgKQApICmQKeArACtAK9AsIC3gLiAu0C+AMBAwsDGgMcAx4DHwMhAyYDRANIA14DYwN7A38DiwOQA5MDmAOuA7IDxAPHA8wAAAAAAAACAQAAAAAAAABvAAAAAAAAAAAAAAAAAAADzg==</filter>
     <subscribe-refresh>0</subscribe-refresh>
     <leveling>
       <constrains-completion-date/>

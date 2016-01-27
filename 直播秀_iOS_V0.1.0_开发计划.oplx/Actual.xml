@@ -62,14 +62,7 @@
   <top-task idref="t-1"/>
   <task id="t-1">
     <type>group</type>
-    <child-task idref="t47"/>
-    <child-task idref="t1"/>
-    <child-task idref="t10"/>
-    <child-task idref="t64"/>
-    <child-task idref="t37"/>
-    <child-task idref="t41"/>
-    <child-task idref="t75"/>
-    <child-task idref="t54"/>
+    <child-task idref="t81"/>
   </task>
   <task id="t1">
     <title>直播广场</title>
@@ -78,20 +71,26 @@
     <child-task idref="t7"/>
     <child-task idref="t8"/>
     <child-task idref="t9"/>
+    <prerequisite-task idref="t47"/>
   </task>
   <task id="t7">
     <title>好友直播</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t58"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t8">
     <title>热门直播</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t7"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t9">
     <title>最新直播</title>
     <type>group</type>
     <child-task idref="t50"/>
     <child-task idref="t51"/>
+    <prerequisite-task idref="t8"/>
   </task>
   <task id="t10">
     <title>我的主页</title>
@@ -105,15 +104,19 @@
     <child-task idref="t59"/>
     <child-task idref="t27"/>
     <child-task idref="t28"/>
+    <child-task idref="t79"/>
     <child-task idref="t29"/>
   </task>
   <task id="t11">
     <title>我的主页（主界面）</title>
-    <effort>28800</effort>
+    <effort>25200</effort>
+    <assignment idref="r2"/>
   </task>
   <task id="t12">
     <title>我的直播</title>
-    <effort>28800</effort>
+    <effort>25200</effort>
+    <prerequisite-task idref="t11"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t13">
     <title>编辑资料</title>
@@ -123,64 +126,90 @@
     <child-task idref="t19"/>
     <child-task idref="t20"/>
     <child-task idref="t21"/>
+    <prerequisite-task idref="t23"/>
   </task>
   <task id="t14">
     <title>我的关注</title>
-    <effort>28800</effort>
+    <effort>25200</effort>
+    <prerequisite-task idref="t12"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t15">
     <title>我的粉丝</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t14"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t16">
     <title>映票贡献榜</title>
-    <effort>28800</effort>
+    <effort>25200</effort>
+    <prerequisite-task idref="t36"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t17">
     <title>编辑资料（主界面）</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <assignment idref="r2"/>
   </task>
   <task id="t18">
     <title>选择头像</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t17"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t19">
     <title>编辑昵称</title>
-    <effort>28800</effort>
+    <effort>6300</effort>
+    <prerequisite-task idref="t18"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t20">
     <title>选择性别</title>
-    <effort>28800</effort>
+    <effort>6300</effort>
+    <prerequisite-task idref="t19"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t21">
     <title>编辑个性签名</title>
-    <effort>28800</effort>
+    <effort>6300</effort>
+    <prerequisite-task idref="t20"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t23">
     <title>私信</title>
     <type>group</type>
     <child-task idref="t24"/>
     <child-task idref="t25"/>
+    <prerequisite-task idref="t15"/>
   </task>
   <task id="t24">
     <title>私信（主界面）</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <assignment idref="r2"/>
   </task>
   <task id="t25">
     <title>未关注人消息</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t24"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t26">
     <title>聊天界面</title>
-    <effort>28800</effort>
+    <effort>126000</effort>
+    <prerequisite-task idref="t16"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t27">
     <title>我的等级</title>
-    <effort>28800</effort>
+    <effort>0</effort>
+    <prerequisite-task idref="t59"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t28">
     <title>我的钻石</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t27"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t29">
     <title>设置</title>
@@ -190,40 +219,54 @@
     <child-task idref="t33"/>
     <child-task idref="t34"/>
     <child-task idref="t35"/>
+    <prerequisite-task idref="t79"/>
   </task>
   <task id="t31">
     <title>设置（主界面）</title>
-    <effort>28800</effort>
+    <effort>6300</effort>
+    <assignment idref="r2"/>
   </task>
   <task id="t32">
     <title>黑名单</title>
-    <effort>28800</effort>
+    <effort>6300</effort>
+    <prerequisite-task idref="t31"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t33">
     <title>推送管理</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t32"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t34">
     <title>关于映客</title>
-    <effort>28800</effort>
+    <effort>0</effort>
+    <prerequisite-task idref="t33"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t35">
     <title>用户反馈</title>
-    <effort>28800</effort>
+    <effort>0</effort>
+    <prerequisite-task idref="t34"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t36">
     <title>搜索界面</title>
-    <effort>28800</effort>
+    <effort>25200</effort>
+    <prerequisite-task idref="t57"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t37">
     <title>视频直播</title>
     <type>group</type>
     <child-task idref="t38"/>
     <child-task idref="t39"/>
+    <prerequisite-task idref="t1"/>
   </task>
   <task id="t38">
     <title>视频层</title>
-    <effort>28800</effort>
+    <effort>37800</effort>
+    <assignment idref="r1"/>
   </task>
   <task id="t39">
     <title>信息层</title>
@@ -236,32 +279,44 @@
     <child-task idref="t44"/>
     <child-task idref="t45"/>
     <child-task idref="t46"/>
+    <prerequisite-task idref="t38"/>
   </task>
   <task id="t41">
     <title>视频录制</title>
     <type>group</type>
     <child-task idref="t73"/>
     <child-task idref="t74"/>
+    <prerequisite-task idref="t37"/>
   </task>
   <task id="t42">
     <title>消息流</title>
-    <effort>28800</effort>
+    <effort>37800</effort>
+    <prerequisite-task idref="t72"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t43">
     <title>弹幕流</title>
-    <effort>28800</effort>
+    <effort>37800</effort>
+    <prerequisite-task idref="t42"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t44">
     <title>消息发送</title>
-    <effort>28800</effort>
+    <effort>37800</effort>
+    <prerequisite-task idref="t71"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t45">
     <title>礼物发送</title>
-    <effort>28800</effort>
+    <effort>37800</effort>
+    <prerequisite-task idref="t44"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t46">
     <title>社交分享</title>
-    <effort>28800</effort>
+    <effort>6300</effort>
+    <prerequisite-task idref="t45"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t47">
     <title>UIUX Framework</title>
@@ -271,35 +326,44 @@
   </task>
   <task id="t48">
     <title>TabBarController</title>
-    <effort>28800</effort>
+    <effort>25200</effort>
+    <assignment idref="r1"/>
   </task>
   <task id="t49">
     <title>NavigationController</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t48"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t50">
     <title>最新直播（主界面）</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <assignment idref="r1"/>
   </task>
   <task id="t51">
     <title>达人推荐</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t50"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t54">
     <title>公共界面</title>
     <type>group</type>
-    <child-task idref="t26"/>
+    <child-task idref="t57"/>
     <child-task idref="t36"/>
     <child-task idref="t16"/>
-    <child-task idref="t57"/>
+    <child-task idref="t26"/>
+    <prerequisite-task idref="t64"/>
   </task>
   <task id="t57">
     <title>网页浏览</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <assignment idref="r2"/>
   </task>
   <task id="t58">
     <title>直播广场（主界面）</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <assignment idref="r1"/>
   </task>
   <task id="t59">
     <title>我的收益</title>
@@ -308,22 +372,30 @@
     <child-task idref="t61"/>
     <child-task idref="t63"/>
     <child-task idref="t62"/>
+    <prerequisite-task idref="t13"/>
   </task>
   <task id="t60">
     <title>我的收益（主界面）</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <assignment idref="r2"/>
   </task>
   <task id="t61">
     <title>兑换界面</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t60"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t62">
     <title>提现记录</title>
-    <effort>28800</effort>
+    <effort>6300</effort>
+    <prerequisite-task idref="t63"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t63">
     <title>微信提现</title>
-    <effort>28800</effort>
+    <effort>6300</effort>
+    <prerequisite-task idref="t61"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t64">
     <title>TA的主页</title>
@@ -332,56 +404,75 @@
     <child-task idref="t66"/>
     <child-task idref="t68"/>
     <child-task idref="t69"/>
+    <prerequisite-task idref="t10"/>
   </task>
   <task id="t65">
     <title>TA的主页（主界面）</title>
-    <effort>28800</effort>
+    <effort>37800</effort>
+    <assignment idref="r2"/>
   </task>
   <task id="t66">
     <title>TA的直播</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t65"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t68">
     <title>TA的关注</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t66"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t69">
     <title>TA的粉丝</title>
-    <effort>28800</effort>
+    <effort>12600</effort>
+    <prerequisite-task idref="t68"/>
+    <assignment idref="r2"/>
   </task>
   <task id="t70">
     <title>观众列表</title>
-    <effort>28800</effort>
+    <effort>6300</effort>
+    <assignment idref="r1"/>
   </task>
   <task id="t71">
     <title>礼物流</title>
-    <effort>28800</effort>
+    <effort>37800</effort>
+    <prerequisite-task idref="t43"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t72">
     <title>观众信息</title>
-    <effort>28800</effort>
+    <effort>25200</effort>
+    <prerequisite-task idref="t70"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t73">
     <title>直播信息</title>
-    <effort>28800</effort>
+    <effort>25200</effort>
+    <assignment idref="r1"/>
   </task>
   <task id="t74">
     <title>视频录制</title>
-    <effort>28800</effort>
+    <effort>126000</effort>
+    <prerequisite-task idref="t73"/>
+    <assignment idref="r1"/>
   </task>
-  <task id="t75">
-    <title>登录</title>
+  <task id="t79">
+    <title>更改头像</title>
+    <effort>12600</effort>
+    <prerequisite-task idref="t28"/>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t81">
+    <title>直播秀_iOS_V0.1.0_开发计划</title>
     <type>group</type>
-    <child-task idref="t77"/>
-    <child-task idref="t78"/>
-  </task>
-  <task id="t77">
-    <title>登录（主界面）</title>
-    <effort>28800</effort>
-  </task>
-  <task id="t78">
-    <title>好友推荐</title>
-    <effort>28800</effort>
+    <child-task idref="t47"/>
+    <child-task idref="t1"/>
+    <child-task idref="t10"/>
+    <child-task idref="t64"/>
+    <child-task idref="t37"/>
+    <child-task idref="t41"/>
+    <child-task idref="t54"/>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
