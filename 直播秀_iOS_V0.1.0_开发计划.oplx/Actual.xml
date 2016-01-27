@@ -50,6 +50,7 @@
     <type>Group</type>
     <child-resource idref="r1"/>
     <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
   </resource>
   <resource id="r1">
     <name>黄玉辉</name>
@@ -113,6 +114,17 @@
       </calendar>
     </schedule>
   </resource>
+  <resource id="r3">
+    <name>陈番顺</name>
+    <type>Staff</type>
+    <schedule>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes">
+        <event start="2016-02-14T00:00:00.000Z" end="2016-02-14T04:00:00.000Z" sd="5522" st="28800" ed="5522" et="43200"/>
+        <event start="2016-02-14T05:00:00.000Z" end="2016-02-14T09:00:00.000Z" sd="5522" st="46800" ed="5522" et="61200"/>
+      </calendar>
+    </schedule>
+  </resource>
   <top-task idref="t-1"/>
   <task id="t-1">
     <type>group</type>
@@ -164,7 +176,9 @@
   <task id="t11">
     <title>我的主页（主界面）</title>
     <effort>25200</effort>
+    <start-constraint-date>2016-02-01T01:00:00.000Z</start-constraint-date>
     <assignment idref="r2"/>
+    <start-no-earlier-than>2016-02-01T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t12">
     <title>我的直播</title>
@@ -315,12 +329,13 @@
     <type>group</type>
     <child-task idref="t38"/>
     <child-task idref="t39"/>
-    <prerequisite-task idref="t1"/>
   </task>
   <task id="t38">
     <title>视频层</title>
-    <effort>37800</effort>
-    <assignment idref="r1"/>
+    <effort>126000</effort>
+    <start-constraint-date>2016-02-14T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2016-02-14T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t39">
     <title>信息层</title>
@@ -333,14 +348,14 @@
     <child-task idref="t44"/>
     <child-task idref="t45"/>
     <child-task idref="t46"/>
-    <prerequisite-task idref="t38"/>
+    <prerequisite-task idref="t9"/>
   </task>
   <task id="t41">
     <title>视频录制</title>
     <type>group</type>
     <child-task idref="t73"/>
     <child-task idref="t74"/>
-    <prerequisite-task idref="t37"/>
+    <prerequisite-task idref="t38"/>
   </task>
   <task id="t42">
     <title>消息流</title>
@@ -503,13 +518,13 @@
   <task id="t73">
     <title>直播信息</title>
     <effort>25200</effort>
-    <assignment idref="r1"/>
+    <assignment idref="r3"/>
   </task>
   <task id="t74">
     <title>视频录制</title>
     <effort>126000</effort>
     <prerequisite-task idref="t73"/>
-    <assignment idref="r1"/>
+    <assignment idref="r3"/>
   </task>
   <task id="t79">
     <title>更改头像</title>

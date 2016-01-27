@@ -530,6 +530,32 @@
     <change idref="t69" attribute="internalPrerequisitesString" type="string" to="68FS" resolved="yes"/>
     <change idref="t79" attribute="internalPrerequisitesString" type="string" to="28FS" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-01-27T08:57:11.394Z" timestamp="2016-01-27T08:57:11.394Z">
+    <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-01T01:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-01-27T09:11:51.600Z" timestamp="2016-01-27T09:11:51.600Z">
+    <change idref="t38" attribute="internalAssignments" type="string" from="1" to="3" resolved="yes"/>
+    <change idref="t41" attribute="internalPrerequisitesString" type="string" from="37FS" resolved="yes"/>
+    <change idref="t73" attribute="internalAssignments" type="string" from="1" to="3" resolved="yes"/>
+    <change idref="t74" attribute="internalAssignments" type="string" from="1" to="3" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-01-27T09:13:56.713Z" timestamp="2016-01-27T09:13:56.713Z">
+    <change idref="t37" attribute="internalPrerequisitesString" type="string" from="1FS" resolved="yes"/>
+    <change idref="t39" attribute="internalPrerequisitesString" type="string" from="38FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-01-27T09:14:55.141Z" timestamp="2016-01-27T09:14:55.141Z">
+    <change idref="t39" attribute="internalPrerequisitesString" type="string" to="9FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-01-27T09:19:50.451Z" timestamp="2016-01-27T09:19:50.451Z">
+    <change idref="t38" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-14T01:00:00.000Z" resolved="yes"/>
+    <change idref="t41" attribute="internalPrerequisitesString" type="string" to="38FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-01-27T09:20:31.390Z" timestamp="2016-01-27T09:20:31.390Z">
+    <change idref="t38" attribute="noEarlierThanConstraintDate" type="date" from="2016-02-14T01:00:00.000Z" to="2016-02-14T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-01-27T09:21:58.125Z" timestamp="2016-01-27T09:21:58.125Z">
+    <change idref="t38" attribute="effort" type="real" from="37800" to="126000" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2016-01-27T05:43:09.931Z" timestamp="2016-01-27T05:43:09.931Z">
     <change idref="r2" to="r-1" to-position="1" resolved="yes">
       <change idref="r2" attribute="name" type="string" to="李世杰"/>
@@ -579,6 +605,17 @@
   </resource-change-set>
   <resource-change-set user="Yuhui Huang" date="2016-01-27T08:51:55.861Z" timestamp="2016-01-27T08:51:55.861Z">
     <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCqAQkMDg8SExUWGNQCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgNERWF1AIDBAUNCgsN1AIDBAUQBwgRERWQERWM1AIDBAUQCgsR1AIDBAUUBwgUERWT1AIDBAUUCgsU1AIDBAUXBwgXERWa1AIDBAUXCgsXCBMcHyIlKCswNT5DSFFUXWZpbHV+gYqTlgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAACf" to="YnBsaXN0MDCsAQkMDg8SExUWGBkb1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWCIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0HCA0RFYXUAgMEBQ0KCw3UAgMEBRAHCBERFZARFYzUAgMEBRAKCxHUAgMEBRQHCBQRFZPUAgMEBRQKCxTUAgMEBRcHCBcRFZrUAgMEBRcKCxfUAgMEBRoHCBoRFaHUAgMEBRoKCxoIFR4hJCcqLTI3QEVKU1ZfaGtud4CDjJWYoaqtAAAAAAAAAQEAAAAAAAAAHAAAAAAAAAAAAAAAAAAAALY=" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2016-01-27T09:08:42.520Z" timestamp="2016-01-27T09:08:42.520Z">
+    <change idref="r3" to="r-1" to-position="2" resolved="yes">
+      <change idref="r3" attribute="name" type="string" to="陈番顺"/>
+    </change>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2016-01-27T09:20:16.633Z" timestamp="2016-01-27T09:20:16.633Z">
+    <change idref="r3" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFZgiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2016-01-27T09:20:53.616Z" timestamp="2016-01-27T09:20:53.616Z">
+    <change idref="r3" attribute="overtimeString" type="string" from="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFZgiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" to="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFZIiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" resolved="yes"/>
   </resource-change-set>
   <metadata-change-set user="Yuhui Huang" date="2016-01-27T05:40:40.682Z" timestamp="2016-01-27T05:40:40.682Z">
     <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-01-27T00:00:00.000Z" resolved="yes"/>
