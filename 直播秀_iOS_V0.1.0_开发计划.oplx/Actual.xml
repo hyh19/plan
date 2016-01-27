@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="p71Pql8D9r6">
-  <start-date>2016-01-27T00:00:00.000Z</start-date>
+  <start-date>2016-01-28T01:00:00.000Z</start-date>
   <prototype-task>
     <task id="t-2">
       <title>Task 1</title>
@@ -54,10 +54,64 @@
   <resource id="r1">
     <name>黄玉辉</name>
     <type>Staff</type>
+    <schedule>
+      <calendar name="Overtime" editable="yes" overtime="yes">
+        <event start="2016-02-06T00:00:00.000Z" end="2016-02-06T04:00:00.000Z" sd="5514" st="28800" ed="5514" et="43200"/>
+        <event start="2016-02-06T05:00:00.000Z" end="2016-02-06T09:00:00.000Z" sd="5514" st="46800" ed="5514" et="61200"/>
+        <event start="2016-02-14T00:00:00.000Z" end="2016-02-14T04:00:00.000Z" sd="5522" st="28800" ed="5522" et="43200"/>
+        <event start="2016-02-14T05:00:00.000Z" end="2016-02-14T09:00:00.000Z" sd="5522" st="46800" ed="5522" et="61200"/>
+      </calendar>
+      <calendar name="Time Off" editable="yes" overtime="no">
+        <event start="2016-01-29T00:00:00.000Z" end="2016-01-29T04:00:00.000Z" sd="5506" st="28800" ed="5506" et="43200"/>
+        <event start="2016-01-29T05:00:00.000Z" end="2016-01-29T09:00:00.000Z" sd="5506" st="46800" ed="5506" et="61200"/>
+        <event start="2016-02-01T00:00:00.000Z" end="2016-02-01T04:00:00.000Z" sd="5509" st="28800" ed="5509" et="43200"/>
+        <event start="2016-02-01T05:00:00.000Z" end="2016-02-01T09:00:00.000Z" sd="5509" st="46800" ed="5509" et="61200"/>
+        <event start="2016-02-08T00:00:00.000Z" end="2016-02-12T04:00:00.000Z" sd="5516" st="28800" ed="5520" et="43200"/>
+        <event start="2016-02-08T05:00:00.000Z" end="2016-02-12T09:00:00.000Z" sd="5516" st="46800" ed="5520" et="61200"/>
+        <event start="2016-02-15T00:00:00.000Z" end="2016-02-15T04:00:00.000Z" sd="5523" st="28800" ed="5523" et="43200"/>
+        <event start="2016-02-15T05:00:00.000Z" end="2016-02-15T09:00:00.000Z" sd="5523" st="46800" ed="5523" et="61200"/>
+        <event start="2016-02-22T00:00:00.000Z" end="2016-02-22T04:00:00.000Z" sd="5530" st="28800" ed="5530" et="43200"/>
+        <event start="2016-02-22T05:00:00.000Z" end="2016-02-22T09:00:00.000Z" sd="5530" st="46800" ed="5530" et="61200"/>
+        <event start="2016-02-29T00:00:00.000Z" end="2016-02-29T04:00:00.000Z" sd="5537" st="28800" ed="5537" et="43200"/>
+        <event start="2016-02-29T05:00:00.000Z" end="2016-02-29T09:00:00.000Z" sd="5537" st="46800" ed="5537" et="61200"/>
+      </calendar>
+    </schedule>
   </resource>
   <resource id="r2">
     <name>李世杰</name>
     <type>Staff</type>
+    <schedule>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="66600"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="66600"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="66600"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="66600"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="32400" end-time="43200"/>
+        <time-span start-time="48600" end-time="66600"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no">
+        <event start="2016-02-08T01:00:00.000Z" end="2016-02-12T04:00:00.000Z" sd="5516" st="32400" ed="5520" et="43200"/>
+        <event start="2016-02-08T05:30:00.000Z" end="2016-02-12T10:30:00.000Z" sd="5516" st="48600" ed="5520" et="66600"/>
+      </calendar>
+      <calendar name="Overtime" editable="yes" overtime="yes">
+        <event start="2016-02-06T01:00:00.000Z" end="2016-02-06T04:00:00.000Z" sd="5514" st="32400" ed="5514" et="43200"/>
+        <event start="2016-02-06T05:30:00.000Z" end="2016-02-06T10:30:00.000Z" sd="5514" st="48600" ed="5514" et="66600"/>
+        <event start="2016-02-14T01:00:00.000Z" end="2016-02-14T04:00:00.000Z" sd="5522" st="32400" ed="5522" et="43200"/>
+        <event start="2016-02-14T05:30:00.000Z" end="2016-02-14T10:30:00.000Z" sd="5522" st="48600" ed="5522" et="66600"/>
+      </calendar>
+    </schedule>
   </resource>
   <top-task idref="t-1"/>
   <task id="t-1">

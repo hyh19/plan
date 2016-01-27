@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="43" y="0" w="1397" h="877">
+  <window x="43" y="-1" w="1397" h="877">
     <editing-scenario>p71Pql8D9r6</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1222</split-view-divider-position>
-      <outline x="0" y="208" w="1222" h="766">
+      <split-view-divider-position>1143</split-view-divider-position>
+      <outline x="0" y="0" w="1143" h="766">
         <column name="Notes" width="20"/>
-        <column name="Title" width="357"/>
+        <column name="Title" width="318"/>
         <column name="Assigned" width="84"/>
         <column name="Time" width="68"/>
         <column name="Effort" width="70"/>
@@ -20,9 +20,9 @@
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
         <column name="Attachments" width="20"/>
-        <expanded-items idrefs="t9 t59 t10 t39 t23 t81 t13 t64 t29"/>
+        <expanded-items idrefs="t9 t59 t10 t39 t23 t81 t13 t64 t29 t47"/>
       </outline>
-      <gantt-view x="0" y="208" w="158" h="766">
+      <gantt-view x="-54" y="0" w="237" h="766">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -54,7 +54,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="86400">
+        <scale scale-name="Automatic" full-day-width="17.468">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -68,15 +68,15 @@
       </gantt-view>
     </task-view>
     <resource-view>
-      <split-view-divider-position>1028</split-view-divider-position>
-      <outline x="0" y="0" w="1013" h="766">
+      <split-view-divider-position>659</split-view-divider-position>
+      <outline x="0" y="0" w="644" h="766">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r2"/>
       </outline>
-      <timeline x="-70" y="0" w="9" h="766">
+      <timeline x="-70" y="0" w="693" h="766">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -120,7 +120,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="275" h="742">
+      <outline x="0" y="0" w="275" h="583">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="160"/>
@@ -138,7 +138,7 @@
   </window>
   <project>
     <title>直播秀 iOS V0.1.0 开发计划</title>
-    <next-task-id>83</next-task-id>
+    <next-task-id>88</next-task-id>
     <next-resource-id>3</next-resource-id>
     <scenario id="p71Pql8D9r6" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="true"/>
