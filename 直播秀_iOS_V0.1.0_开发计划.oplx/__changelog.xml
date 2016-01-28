@@ -556,6 +556,22 @@
   <task-change-set user="Yuhui Huang" date="2016-01-27T09:21:58.125Z" timestamp="2016-01-27T09:21:58.125Z">
     <change idref="t38" attribute="effort" type="real" from="37800" to="126000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-01-28T10:08:53.643Z" timestamp="2016-01-28T10:08:53.643Z">
+    <change idref="t48" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t48" attribute="internalEffortDone" type="real" from="0" to="25200" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2016-01-27T05:43:09.931Z" timestamp="2016-01-27T05:43:09.931Z">
     <change idref="r2" to="r-1" to-position="1" resolved="yes">
       <change idref="r2" attribute="name" type="string" to="李世杰"/>

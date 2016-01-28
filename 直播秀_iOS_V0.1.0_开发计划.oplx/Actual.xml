@@ -396,6 +396,16 @@
   <task id="t48">
     <title>TabBarController</title>
     <effort>25200</effort>
+    <effort-done>25200</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r1"/>
   </task>
   <task id="t49">
