@@ -1,563 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T05:52:02.943Z" timestamp="2016-01-27T05:52:02.943Z">
-    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t1" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t1" attribute="title" type="string" from="Task 1" to="主界面" resolved="yes"/>
-    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t1" attribute="effort" type="real" from="28800" resolved="yes"/>
-    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
-    <change idref="t1" attribute="internalAssignments" type="string" from="" resolved="yes"/>
-    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
-    <change idref="t7" to="t1" to-position="0" resolved="yes">
-      <change idref="t7" attribute="title" type="string" to="关注"/>
-    </change>
-    <change idref="t8" to="t1" to-position="1" resolved="yes">
-      <change idref="t8" attribute="title" type="string" to="热门"/>
-    </change>
-    <change idref="t9" to="t1" to-position="2" resolved="yes">
-      <change idref="t9" attribute="title" type="string" to="最新"/>
-    </change>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T02:01:59.125Z" timestamp="2016-02-01T02:01:59.125Z">
+    <change idref="t38" attribute="noEarlierThanConstraintDate" type="date" from="2016-02-14T00:00:00.000Z" to="2016-02-01T01:00:00.000Z" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T06:36:05.354Z" timestamp="2016-01-27T06:36:05.354Z">
-    <change idref="t47" to="t-1" to-position="0" resolved="yes">
-      <change idref="t47" attribute="title" type="string" to="UIUX框架"/>
-    </change>
-    <change idref="t10" to="t-1" to-position="2" resolved="yes">
-      <change idref="t10" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t10" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t10" attribute="title" type="string" to="个人中心"/>
-    </change>
-    <change idref="t36" to="t-1" to-position="3" resolved="yes">
-      <change idref="t36" attribute="title" type="string" to="搜索界面"/>
-    </change>
-    <change idref="t37" to="t-1" to-position="4" resolved="yes">
-      <change idref="t37" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t37" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t37" attribute="title" type="string" to="视频直播"/>
-    </change>
-    <change idref="t41" to="t-1" to-position="5" resolved="yes">
-      <change idref="t41" attribute="title" type="string" to="视频录制"/>
-    </change>
-    <change idref="t17" to="t13" to-position="0" resolved="yes">
-      <change idref="t17" attribute="title" type="string" to="编辑资料"/>
-    </change>
-    <change idref="t18" to="t13" to-position="1" resolved="yes">
-      <change idref="t18" attribute="title" type="string" to="选择头像"/>
-    </change>
-    <change idref="t19" to="t13" to-position="2" resolved="yes">
-      <change idref="t19" attribute="title" type="string" to="编辑昵称"/>
-    </change>
-    <change idref="t20" to="t13" to-position="3" resolved="yes">
-      <change idref="t20" attribute="title" type="string" to="选择性别"/>
-    </change>
-    <change idref="t21" to="t13" to-position="4" resolved="yes">
-      <change idref="t21" attribute="title" type="string" to="编辑个性签名"/>
-    </change>
-    <change idref="t24" to="t23" to-position="0" resolved="yes">
-      <change idref="t24" attribute="title" type="string" to="私信"/>
-    </change>
-    <change idref="t25" to="t23" to-position="1" resolved="yes">
-      <change idref="t25" attribute="title" type="string" to="未关注人消息"/>
-    </change>
-    <change idref="t26" to="t23" to-position="2" resolved="yes">
-      <change idref="t26" attribute="title" type="string" to="聊天界面"/>
-    </change>
-    <change idref="t31" to="t29" to-position="0" resolved="yes">
-      <change idref="t31" attribute="title" type="string" to="设置"/>
-    </change>
-    <change idref="t32" to="t29" to-position="1" resolved="yes">
-      <change idref="t32" attribute="title" type="string" to="黑名单"/>
-    </change>
-    <change idref="t33" to="t29" to-position="2" resolved="yes">
-      <change idref="t33" attribute="title" type="string" to="推送管理"/>
-    </change>
-    <change idref="t34" to="t29" to-position="3" resolved="yes">
-      <change idref="t34" attribute="title" type="string" to="关于映客"/>
-    </change>
-    <change idref="t35" to="t29" to-position="4" resolved="yes">
-      <change idref="t35" attribute="title" type="string" to="用户反馈"/>
-    </change>
-    <change idref="t38" to="t37" to-position="0" resolved="yes">
-      <change idref="t38" attribute="title" type="string" to="视频层"/>
-    </change>
-    <change idref="t39" to="t37" to-position="1" resolved="yes">
-      <change idref="t39" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t39" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t39" attribute="title" type="string" to="消息层"/>
-    </change>
-    <change idref="t42" to="t39" to-position="0" resolved="yes">
-      <change idref="t42" attribute="title" type="string" to="聊天消息"/>
-    </change>
-    <change idref="t43" to="t39" to-position="1" resolved="yes">
-      <change idref="t43" attribute="title" type="string" to="弹幕消息"/>
-    </change>
-    <change idref="t44" to="t39" to-position="2" resolved="yes">
-      <change idref="t44" attribute="title" type="string" to="消息输入"/>
-    </change>
-    <change idref="t45" to="t39" to-position="3" resolved="yes">
-      <change idref="t45" attribute="title" type="string" to="礼物输入"/>
-    </change>
-    <change idref="t46" to="t39" to-position="4" resolved="yes">
-      <change idref="t46" attribute="title" type="string" to="社交分享"/>
-    </change>
-    <change idref="t11" to="t10" to-position="0" resolved="yes">
-      <change idref="t11" attribute="title" type="string" to="个人中心"/>
-    </change>
-    <change idref="t12" to="t10" to-position="1" resolved="yes">
-      <change idref="t12" attribute="title" type="string" to="我的直播"/>
-    </change>
-    <change idref="t14" to="t10" to-position="2" resolved="yes">
-      <change idref="t14" attribute="title" type="string" to="我的关注"/>
-    </change>
-    <change idref="t15" to="t10" to-position="3" resolved="yes">
-      <change idref="t15" attribute="title" type="string" to="我的粉丝"/>
-    </change>
-    <change idref="t16" to="t10" to-position="4" resolved="yes">
-      <change idref="t16" attribute="title" type="string" to="映票贡献榜"/>
-    </change>
-    <change idref="t13" to="t10" to-position="5" resolved="yes">
-      <change idref="t13" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t13" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t13" attribute="title" type="string" to="编辑资料"/>
-    </change>
-    <change idref="t23" to="t10" to-position="6" resolved="yes">
-      <change idref="t23" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t23" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t23" attribute="title" type="string" to="私信"/>
-    </change>
-    <change idref="t27" to="t10" to-position="7" resolved="yes">
-      <change idref="t27" attribute="title" type="string" to="我的等级"/>
-    </change>
-    <change idref="t28" to="t10" to-position="8" resolved="yes">
-      <change idref="t28" attribute="title" type="string" to="我的钻石"/>
-    </change>
-    <change idref="t29" to="t10" to-position="9" resolved="yes">
-      <change idref="t29" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t29" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t29" attribute="title" type="string" to="设置"/>
-    </change>
-    <change idref="t30" to="t10" to-position="10" resolved="yes">
-      <change idref="t30" attribute="title" type="string" to="Task 1"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T06:50:22.162Z" timestamp="2016-01-27T06:50:22.162Z">
-    <change idref="t1" attribute="title" type="string" from="主界面" to="直播广场" resolved="yes"/>
-    <change idref="t47" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t47" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t47" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t47" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t47" attribute="title" type="string" from="UIUX框架" to="UIUX Framework" resolved="yes"/>
-    <change idref="t47" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t47" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t47" attribute="effort" type="real" from="28800" resolved="yes"/>
-    <change idref="t47" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t47" attribute="scheduleType" type="real" from="0" resolved="yes"/>
-    <change idref="t47" attribute="internalAssignments" type="string" from="" resolved="yes"/>
-    <change idref="t47" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t47" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
-    <change idref="t48" to="t47" to-position="0" resolved="yes">
-      <change idref="t48" attribute="title" type="string" to="TabBarController"/>
-    </change>
-    <change idref="t49" to="t47" to-position="1" resolved="yes">
-      <change idref="t49" attribute="title" type="string" to="NavigationController"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:07:14.122Z" timestamp="2016-01-27T07:07:14.122Z">
-    <change idref="t54" to="t-1" to-position="6" resolved="yes">
-      <change idref="t54" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t54" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t54" attribute="title" type="string" to="公共界面"/>
-    </change>
-    <change idref="t58" to="t1" to-position="0" resolved="yes">
-      <change idref="t58" attribute="title" type="string" to="直播广场（主界面）"/>
-    </change>
-    <change idref="t7" attribute="title" type="string" from="关注" to="好友直播" resolved="yes"/>
-    <change idref="t8" attribute="title" type="string" from="热门" to="热门直播" resolved="yes"/>
-    <change idref="t9" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t9" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t9" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t9" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t9" attribute="title" type="string" from="最新" to="最新直播" resolved="yes"/>
-    <change idref="t9" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t9" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t9" attribute="effort" type="real" from="28800" resolved="yes"/>
-    <change idref="t9" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t9" attribute="scheduleType" type="real" from="0" resolved="yes"/>
-    <change idref="t9" attribute="internalAssignments" type="string" from="" resolved="yes"/>
-    <change idref="t9" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t9" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
-    <change idref="t50" to="t9" to-position="0" resolved="yes">
-      <change idref="t50" attribute="title" type="string" to="最新直播（主界面）"/>
-    </change>
-    <change idref="t51" to="t9" to-position="1" resolved="yes">
-      <change idref="t51" attribute="title" type="string" to="达人推荐"/>
-    </change>
-    <change idref="t10" attribute="title" type="string" from="个人中心" to="我的主页" resolved="yes"/>
-    <change idref="t23" from="t10" from-position="6" to="t10" to-position="4" resolved="yes"/>
-    <change idref="t59" to="t10" to-position="6" resolved="yes">
-      <change idref="t59" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t59" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t59" attribute="title" type="string" to="我的收益"/>
-    </change>
-    <change idref="t11" attribute="title" type="string" from="个人中心" to="我的主页（主界面）" resolved="yes"/>
-    <change idref="t17" attribute="title" type="string" from="编辑资料" to="编辑资料（主界面）" resolved="yes"/>
-    <change idref="t24" attribute="title" type="string" from="私信" to="私信（主界面）" resolved="yes"/>
-    <change idref="t60" to="t59" to-position="0" resolved="yes">
-      <change idref="t60" attribute="title" type="string" to="我的收益（主界面）"/>
-    </change>
-    <change idref="t26" from="t23" from-position="2" to="t54" to-position="0" resolved="yes"/>
-    <change idref="t16" from="t10" from-position="4" to="t54" to-position="1" resolved="yes"/>
-    <change idref="t57" to="t54" to-position="2" resolved="yes">
-      <change idref="t57" attribute="title" type="string" to="WebViewController"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:24:32.420Z" timestamp="2016-01-27T07:24:32.420Z">
-    <change idref="t64" to="t-1" to-position="3" resolved="yes">
-      <change idref="t64" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t64" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t64" attribute="title" type="string" to="TA的主页"/>
-    </change>
-    <change idref="t30" from="t10" from-position="10" resolved="yes">
-      <change idref="t30" attribute="title" type="string" to="Task 1"/>
-    </change>
-    <change idref="t31" attribute="title" type="string" from="设置" to="设置（主界面）" resolved="yes"/>
-    <change idref="t39" attribute="title" type="string" from="消息层" to="信息层" resolved="yes"/>
-    <change idref="t70" to="t39" to-position="0" resolved="yes">
-      <change idref="t70" attribute="title" type="string" to="观众列表"/>
-    </change>
-    <change idref="t72" to="t39" to-position="1" resolved="yes">
-      <change idref="t72" attribute="title" type="string" to="观众信息"/>
-    </change>
-    <change idref="t71" to="t39" to-position="4" resolved="yes">
-      <change idref="t71" attribute="title" type="string" to="礼物流"/>
-    </change>
-    <change idref="t41" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t41" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t41" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t41" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t41" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t41" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t41" attribute="effort" type="real" from="28800" resolved="yes"/>
-    <change idref="t41" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t41" attribute="scheduleType" type="real" from="0" resolved="yes"/>
-    <change idref="t41" attribute="internalAssignments" type="string" from="" resolved="yes"/>
-    <change idref="t41" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t41" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
-    <change idref="t73" to="t41" to-position="0" resolved="yes">
-      <change idref="t73" attribute="title" type="string" to="直播信息"/>
-    </change>
-    <change idref="t74" to="t41" to-position="1" resolved="yes">
-      <change idref="t74" attribute="title" type="string" to="视频录制"/>
-    </change>
-    <change idref="t42" attribute="title" type="string" from="聊天消息" to="消息流" resolved="yes"/>
-    <change idref="t43" attribute="title" type="string" from="弹幕消息" to="弹幕流" resolved="yes"/>
-    <change idref="t44" attribute="title" type="string" from="消息输入" to="消息发送" resolved="yes"/>
-    <change idref="t45" attribute="title" type="string" from="礼物输入" to="礼物发送" resolved="yes"/>
-    <change idref="t36" from="t-1" from-position="3" to="t54" to-position="1" resolved="yes"/>
-    <change idref="t61" to="t59" to-position="1" resolved="yes">
-      <change idref="t61" attribute="title" type="string" to="兑换界面"/>
-    </change>
-    <change idref="t63" to="t59" to-position="2" resolved="yes">
-      <change idref="t63" attribute="title" type="string" to="微信提现"/>
-    </change>
-    <change idref="t62" to="t59" to-position="3" resolved="yes">
-      <change idref="t62" attribute="title" type="string" to="提现记录"/>
-    </change>
-    <change idref="t65" to="t64" to-position="0" resolved="yes">
-      <change idref="t65" attribute="title" type="string" to="TA的主页（主界面）"/>
-    </change>
-    <change idref="t66" to="t64" to-position="1" resolved="yes">
-      <change idref="t66" attribute="title" type="string" to="TA的直播"/>
-    </change>
-    <change idref="t68" to="t64" to-position="2" resolved="yes">
-      <change idref="t68" attribute="title" type="string" to="TA的关注"/>
-    </change>
-    <change idref="t69" to="t64" to-position="3" resolved="yes">
-      <change idref="t69" attribute="title" type="string" to="TA的粉丝"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:24:46.813Z" timestamp="2016-01-27T07:24:46.813Z">
-    <change idref="t57" attribute="title" type="string" from="WebViewController" to="网页浏览" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:29:15.296Z" timestamp="2016-01-27T07:29:15.296Z">
-    <change idref="t75" to="t-1" to-position="6" resolved="yes">
-      <change idref="t75" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t75" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t75" attribute="title" type="string" to="登录"/>
-    </change>
-    <change idref="t77" to="t75" to-position="0" resolved="yes">
-      <change idref="t77" attribute="title" type="string" to="登录（主界面）"/>
-    </change>
-    <change idref="t78" to="t75" to-position="1" resolved="yes">
-      <change idref="t78" attribute="title" type="string" to="好友推荐"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:40:36.949Z" timestamp="2016-01-27T07:40:36.949Z">
-    <change idref="t38" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t42" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t43" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t44" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t45" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t46" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t48" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t49" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t58" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t70" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t71" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t72" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t73" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t74" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:54:47.323Z" timestamp="2016-01-27T07:54:47.323Z">
-    <change idref="t79" to="t10" to-position="9" resolved="yes">
-      <change idref="t79" attribute="title" type="string" to="选择头像"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:55:38.762Z" timestamp="2016-01-27T07:55:38.762Z">
-    <change idref="t11" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t12" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t14" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t15" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t16" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t17" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t18" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t19" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t20" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t21" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t24" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t25" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t26" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t27" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t28" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t31" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t32" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t33" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t34" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t35" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t36" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t57" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t60" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t61" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t62" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t63" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t65" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t66" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t68" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t69" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t79" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:56:04.375Z" timestamp="2016-01-27T07:56:04.375Z">
-    <change idref="t77" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-    <change idref="t78" attribute="internalAssignments" type="string" from="" to="2" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:56:41.605Z" timestamp="2016-01-27T07:56:41.605Z">
-    <change idref="t7" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t8" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t50" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-    <change idref="t51" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:57:26.792Z" timestamp="2016-01-27T07:57:26.792Z">
-    <change idref="t80" to="t47" to-position="2" resolved="yes">
-      <change idref="t80" attribute="title" type="string" to="AutoLayout"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T07:58:23.814Z" timestamp="2016-01-27T07:58:23.814Z">
-    <change idref="t80" from="t47" from-position="2" resolved="yes">
-      <change idref="t80" attribute="title" type="string" to="AutoLayout"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:00:26.914Z" timestamp="2016-01-27T08:00:26.914Z">
-    <change idref="t26" attribute="internalAssignments" type="string" from="1" to="2" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:06:48.160Z" timestamp="2016-01-27T08:06:48.160Z">
-    <change idref="t1" attribute="internalPrerequisitesString" type="string" to="47FS" resolved="yes"/>
-    <change idref="t37" attribute="internalPrerequisitesString" type="string" to="1FS" resolved="yes"/>
-    <change idref="t41" attribute="internalPrerequisitesString" type="string" to="37FS" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:06:58.910Z" timestamp="2016-01-27T08:06:58.910Z">
-    <change idref="t49" attribute="internalPrerequisitesString" type="string" to="48FS" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:07:36.449Z" timestamp="2016-01-27T08:07:36.449Z">
-    <change idref="t7" attribute="internalPrerequisitesString" type="string" to="58FS" resolved="yes"/>
-    <change idref="t8" attribute="internalPrerequisitesString" type="string" to="7FS" resolved="yes"/>
-    <change idref="t9" attribute="internalPrerequisitesString" type="string" to="8FS" resolved="yes"/>
-    <change idref="t39" attribute="internalPrerequisitesString" type="string" to="38FS" resolved="yes"/>
-    <change idref="t42" attribute="internalPrerequisitesString" type="string" to="72FS" resolved="yes"/>
-    <change idref="t43" attribute="internalPrerequisitesString" type="string" to="42FS" resolved="yes"/>
-    <change idref="t44" attribute="internalPrerequisitesString" type="string" to="71FS" resolved="yes"/>
-    <change idref="t45" attribute="internalPrerequisitesString" type="string" to="44FS" resolved="yes"/>
-    <change idref="t46" attribute="internalPrerequisitesString" type="string" to="45FS" resolved="yes"/>
-    <change idref="t51" attribute="internalPrerequisitesString" type="string" to="50FS" resolved="yes"/>
-    <change idref="t71" attribute="internalPrerequisitesString" type="string" to="43FS" resolved="yes"/>
-    <change idref="t72" attribute="internalPrerequisitesString" type="string" to="70FS" resolved="yes"/>
-    <change idref="t74" attribute="internalPrerequisitesString" type="string" to="73FS" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:07:50.688Z" timestamp="2016-01-27T08:07:50.688Z">
-    <change idref="t48" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:12:39.437Z" timestamp="2016-01-27T08:12:39.437Z">
-    <change idref="t7" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t8" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t49" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t50" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t51" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t58" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:15:13.208Z" timestamp="2016-01-27T08:15:13.208Z">
-    <change idref="t38" attribute="effort" type="real" from="28800" to="37800" resolved="yes"/>
-    <change idref="t42" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-    <change idref="t43" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-    <change idref="t44" attribute="effort" type="real" from="28800" to="37800" resolved="yes"/>
-    <change idref="t45" attribute="effort" type="real" from="28800" to="37800" resolved="yes"/>
-    <change idref="t46" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t71" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:16:48.504Z" timestamp="2016-01-27T08:16:48.504Z">
-    <change idref="t46" attribute="effort" type="real" from="12600" to="6300" resolved="yes"/>
-    <change idref="t70" attribute="effort" type="real" from="28800" to="6300" resolved="yes"/>
-    <change idref="t72" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:17:18.589Z" timestamp="2016-01-27T08:17:18.589Z">
-    <change idref="t42" attribute="effort" type="real" from="25200" to="37800" resolved="yes"/>
-    <change idref="t43" attribute="effort" type="real" from="25200" to="37800" resolved="yes"/>
-    <change idref="t71" attribute="effort" type="real" from="25200" to="37800" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:17:30.096Z" timestamp="2016-01-27T08:17:30.096Z">
-    <change idref="t73" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-    <change idref="t74" attribute="effort" type="real" from="28800" to="126000" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:19:01.561Z" timestamp="2016-01-27T08:19:01.561Z">
-    <change idref="t81" to="t-1" to-position="0" resolved="yes">
-      <change idref="t81" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t81" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t81" attribute="title" type="string" to="直播秀_iOS_V0.1.0_开发计划"/>
-    </change>
-    <change idref="t47" from="t-1" from-position="0" to="t81" to-position="0" resolved="yes"/>
-    <change idref="t1" from="t-1" from-position="1" to="t81" to-position="1" resolved="yes"/>
-    <change idref="t10" from="t-1" from-position="2" to="t81" to-position="2" resolved="yes"/>
-    <change idref="t64" from="t-1" from-position="3" to="t81" to-position="3" resolved="yes"/>
-    <change idref="t37" from="t-1" from-position="4" to="t81" to-position="4" resolved="yes"/>
-    <change idref="t41" from="t-1" from-position="5" to="t81" to-position="5" resolved="yes"/>
-    <change idref="t75" from="t-1" from-position="6" to="t81" to-position="6" resolved="yes"/>
-    <change idref="t54" from="t-1" from-position="7" to="t81" to-position="7" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:28:25.865Z" timestamp="2016-01-27T08:28:25.865Z">
-    <change idref="t11" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-    <change idref="t12" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-    <change idref="t14" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-    <change idref="t15" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t24" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t25" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:32:58.568Z" timestamp="2016-01-27T08:32:58.568Z">
-    <change idref="t17" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t18" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t19" attribute="effort" type="real" from="28800" to="6300" resolved="yes"/>
-    <change idref="t20" attribute="effort" type="real" from="28800" to="6300" resolved="yes"/>
-    <change idref="t21" attribute="effort" type="real" from="28800" to="6300" resolved="yes"/>
-    <change idref="t27" attribute="effort" type="real" from="28800" to="6300" resolved="yes"/>
-    <change idref="t28" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t31" attribute="effort" type="real" from="28800" to="6300" resolved="yes"/>
-    <change idref="t32" attribute="effort" type="real" from="28800" to="6300" resolved="yes"/>
-    <change idref="t33" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t34" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
-    <change idref="t35" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
-    <change idref="t60" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t61" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t62" attribute="effort" type="real" from="28800" to="6300" resolved="yes"/>
-    <change idref="t63" attribute="effort" type="real" from="28800" to="6300" resolved="yes"/>
-    <change idref="t79" attribute="title" type="string" from="选择头像" to="更改头像" resolved="yes"/>
-    <change idref="t79" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:37:17.587Z" timestamp="2016-01-27T08:37:17.587Z">
-    <change idref="t16" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-    <change idref="t26" attribute="effort" type="real" from="28800" to="126000" resolved="yes"/>
-    <change idref="t27" attribute="effort" type="real" from="6300" to="0" resolved="yes"/>
-    <change idref="t36" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
-    <change idref="t57" from="t54" from-position="3" to="t54" to-position="0" resolved="yes"/>
-    <change idref="t26" from="t54" from-position="1" to="t54" to-position="3" resolved="yes"/>
-    <change idref="t57" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t65" attribute="effort" type="real" from="28800" to="37800" resolved="yes"/>
-    <change idref="t66" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t68" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t69" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t77" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-    <change idref="t78" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:38:15.873Z" timestamp="2016-01-27T08:38:15.873Z">
-    <change idref="t75" from="t81" from-position="6" resolved="yes">
-      <change idref="t75" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t75" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t75" attribute="title" type="string" to="登录"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:39:38.284Z" timestamp="2016-01-27T08:39:38.284Z">
-    <change idref="t12" attribute="internalPrerequisitesString" type="string" to="11FS" resolved="yes"/>
-    <change idref="t13" attribute="internalPrerequisitesString" type="string" to="23FS" resolved="yes"/>
-    <change idref="t14" attribute="internalPrerequisitesString" type="string" to="12FS" resolved="yes"/>
-    <change idref="t15" attribute="internalPrerequisitesString" type="string" to="14FS" resolved="yes"/>
-    <change idref="t16" attribute="internalPrerequisitesString" type="string" to="36FS" resolved="yes"/>
-    <change idref="t18" attribute="internalPrerequisitesString" type="string" to="17FS" resolved="yes"/>
-    <change idref="t19" attribute="internalPrerequisitesString" type="string" to="18FS" resolved="yes"/>
-    <change idref="t20" attribute="internalPrerequisitesString" type="string" to="19FS" resolved="yes"/>
-    <change idref="t21" attribute="internalPrerequisitesString" type="string" to="20FS" resolved="yes"/>
-    <change idref="t23" attribute="internalPrerequisitesString" type="string" to="15FS" resolved="yes"/>
-    <change idref="t25" attribute="internalPrerequisitesString" type="string" to="24FS" resolved="yes"/>
-    <change idref="t26" attribute="internalPrerequisitesString" type="string" to="16FS" resolved="yes"/>
-    <change idref="t27" attribute="internalPrerequisitesString" type="string" to="59FS" resolved="yes"/>
-    <change idref="t28" attribute="internalPrerequisitesString" type="string" to="27FS" resolved="yes"/>
-    <change idref="t29" attribute="internalPrerequisitesString" type="string" to="79FS" resolved="yes"/>
-    <change idref="t32" attribute="internalPrerequisitesString" type="string" to="31FS" resolved="yes"/>
-    <change idref="t33" attribute="internalPrerequisitesString" type="string" to="32FS" resolved="yes"/>
-    <change idref="t34" attribute="internalPrerequisitesString" type="string" to="33FS" resolved="yes"/>
-    <change idref="t35" attribute="internalPrerequisitesString" type="string" to="34FS" resolved="yes"/>
-    <change idref="t36" attribute="internalPrerequisitesString" type="string" to="57FS" resolved="yes"/>
-    <change idref="t54" attribute="internalPrerequisitesString" type="string" to="64FS" resolved="yes"/>
-    <change idref="t59" attribute="internalPrerequisitesString" type="string" to="13FS" resolved="yes"/>
-    <change idref="t61" attribute="internalPrerequisitesString" type="string" to="60FS" resolved="yes"/>
-    <change idref="t62" attribute="internalPrerequisitesString" type="string" to="63FS" resolved="yes"/>
-    <change idref="t63" attribute="internalPrerequisitesString" type="string" to="61FS" resolved="yes"/>
-    <change idref="t64" attribute="internalPrerequisitesString" type="string" to="10FS" resolved="yes"/>
-    <change idref="t66" attribute="internalPrerequisitesString" type="string" to="65FS" resolved="yes"/>
-    <change idref="t68" attribute="internalPrerequisitesString" type="string" to="66FS" resolved="yes"/>
-    <change idref="t69" attribute="internalPrerequisitesString" type="string" to="68FS" resolved="yes"/>
-    <change idref="t79" attribute="internalPrerequisitesString" type="string" to="28FS" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T08:57:11.394Z" timestamp="2016-01-27T08:57:11.394Z">
-    <change idref="t11" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-01T01:00:00.000Z" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T09:11:51.600Z" timestamp="2016-01-27T09:11:51.600Z">
-    <change idref="t38" attribute="internalAssignments" type="string" from="1" to="3" resolved="yes"/>
-    <change idref="t41" attribute="internalPrerequisitesString" type="string" from="37FS" resolved="yes"/>
-    <change idref="t73" attribute="internalAssignments" type="string" from="1" to="3" resolved="yes"/>
-    <change idref="t74" attribute="internalAssignments" type="string" from="1" to="3" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T09:13:56.713Z" timestamp="2016-01-27T09:13:56.713Z">
-    <change idref="t37" attribute="internalPrerequisitesString" type="string" from="1FS" resolved="yes"/>
-    <change idref="t39" attribute="internalPrerequisitesString" type="string" from="38FS" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T09:14:55.141Z" timestamp="2016-01-27T09:14:55.141Z">
-    <change idref="t39" attribute="internalPrerequisitesString" type="string" to="9FS" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T09:19:50.451Z" timestamp="2016-01-27T09:19:50.451Z">
-    <change idref="t38" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-14T01:00:00.000Z" resolved="yes"/>
-    <change idref="t41" attribute="internalPrerequisitesString" type="string" to="38FS" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T09:20:31.390Z" timestamp="2016-01-27T09:20:31.390Z">
-    <change idref="t38" attribute="noEarlierThanConstraintDate" type="date" from="2016-02-14T01:00:00.000Z" to="2016-02-14T00:00:00.000Z" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-27T09:21:58.125Z" timestamp="2016-01-27T09:21:58.125Z">
-    <change idref="t38" attribute="effort" type="real" from="37800" to="126000" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-01-28T10:08:53.643Z" timestamp="2016-01-28T10:08:53.643Z">
-    <change idref="t48" attribute="styleDict" type="dict" to="{
+  <task-change-set user="Yuhui Huang" date="2016-02-01T06:08:30.660Z" timestamp="2016-02-01T06:08:30.660Z">
+    <change idref="t49" attribute="styleDict" type="dict" to="{
     &quot;font-fill&quot; =     {
         b = 0;
         g = 0;
@@ -570,76 +18,59 @@
     };
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
-    <change idref="t48" attribute="internalEffortDone" type="real" from="0" to="25200" resolved="yes"/>
+    <change idref="t49" attribute="internalEffortDone" type="real" from="0" to="12600" resolved="yes"/>
   </task-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T05:43:09.931Z" timestamp="2016-01-27T05:43:09.931Z">
-    <change idref="r2" to="r-1" to-position="1" resolved="yes">
-      <change idref="r2" attribute="name" type="string" to="李世杰"/>
-    </change>
-    <change idref="r1" attribute="name" type="string" from="Resource 1" to="黄玉辉" resolved="yes"/>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T06:13:42.134Z" timestamp="2016-02-01T06:13:42.134Z">
+    <change idref="t48" attribute="effort" type="real" from="25200" to="28800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T06:14:18.922Z" timestamp="2016-02-01T06:14:18.922Z">
+    <change idref="t48" attribute="internalEffortDone" type="real" from="25200" to="28800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T06:16:25.993Z" timestamp="2016-02-01T06:16:25.993Z">
+    <change idref="t48" attribute="internalEffortDone" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t49" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t49" attribute="internalEffortDone" type="real" from="12600" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T06:16:56.484Z" timestamp="2016-02-01T06:16:56.484Z">
+    <change idref="t48" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t49" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:09:19.387Z" timestamp="2016-02-01T06:09:19.387Z">
+    <change idref="r1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="-;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;-" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:44:49.599Z" timestamp="2016-01-27T08:44:49.599Z">
-    <change idref="r2" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="-;32400,43200,48600,66600;32400,43200,48600,66600;32400,43200,48600,66600;32400,43200,48600,66600;32400,43200,48600,66600;-" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:09:29.573Z" timestamp="2016-02-01T06:09:29.573Z">
+    <change idref="r2" attribute="standardHoursString" type="string" from="-;32400,43200,48600,66600;32400,43200,48600,66600;32400,43200,48600,66600;32400,43200,48600,66600;32400,43200,48600,66600;-" to="-;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;-" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:45:25.338Z" timestamp="2016-01-27T08:45:25.338Z">
-    <change idref="r2" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFYoiRv0gACJHKMAA1AIDBAUGCgsGIkc92AAiR4IUAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:09:53.080Z" timestamp="2016-02-01T06:09:53.080Z">
+    <change idref="r3" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="-;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;-" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:45:47.540Z" timestamp="2016-01-27T08:45:47.540Z">
-    <change idref="r2" attribute="overtimeString" type="string" from="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFYoiRv0gACJHKMAA1AIDBAUGCgsGIkc92AAiR4IUAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" to="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiRz3YACJHghQA1AIDBAUNBwgNERWS1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:10:23.094Z" timestamp="2016-02-01T06:10:23.094Z">
+    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgNERWS1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" to="YnBsaXN0MDCkAQkMD9QCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiR0TgACJHhZgA1AIDBAUNDggNERWSIkbhAADUAgMEBQ0QEQ0iRzbQACJHbxAACA0WGRwfIiUqLzg9QktOU1xhAAAAAAAAAQEAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAGY=" resolved="yes"/>
+    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCsAQkMDg8SExUWGBkb1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWCIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0HCA0RFYXUAgMEBQ0KCw3UAgMEBRAHCBERFZARFYzUAgMEBRAKCxHUAgMEBRQHCBQRFZPUAgMEBRQKCxTUAgMEBRcHCBcRFZrUAgMEBRcKCxfUAgMEBRoHCBoRFaHUAgMEBRoKCxoIFR4hJCcqLTI3QEVKU1ZfaGtud4CDjJWYoaqtAAAAAAAAAQEAAAAAAAAAHAAAAAAAAAAAAAAAAAAAALY=" to="YnBsaXN0MDCqAQkMDxASExUWGNQCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgOERWQERWM1AIDBAUNCgsO1AIDBAURBwgRERWT1AIDBAURCgsR1AIDBAUUBwgUERWa1AIDBAUUCgsU1AIDBAUXBwgXERWh1AIDBAUXCgsXCBMcHyIlKCswNT5DSFFUV2BpbHV+gYqTlgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAACf" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:46:17.015Z" timestamp="2016-01-27T08:46:17.015Z">
-    <change idref="r2" attribute="timeOffString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFZAiRv0gACJHKMAAERWM1AIDBAUGCwwJIkc92AAiR4IUAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:11:21.683Z" timestamp="2016-02-01T06:11:21.683Z">
+    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCkAQkMD9QCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiR0TgACJHhZgA1AIDBAUNDggNERWSIkbhAADUAgMEBQ0QEQ0iRzbQACJHbxAACA0WGRwfIiUqLzg9QktOU1xhAAAAAAAAAQEAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAGY=" to="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiR0TgACJHhZgA1AIDBAUNBwgNERWS1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" resolved="yes"/>
+    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCqAQkMDxASExUWGNQCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgOERWQERWM1AIDBAUNCgsO1AIDBAURBwgRERWT1AIDBAURCgsR1AIDBAUUBwgUERWa1AIDBAUUCgsU1AIDBAUXBwgXERWh1AIDBAUXCgsXCBMcHyIlKCswNT5DSFFUV2BpbHV+gYqTlgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAACf" to="YnBsaXN0MDCqAQkMEBMVFhgZG9QCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNDggPERWQIkb9IAARFYzUAgMEBQ0REg8iR0TgACJHhZgA1AIDBAUUDggUERWT1AIDBAUUERIU1AIDBAUXBwgXERWa1AIDBAUXCgsX1AIDBAUaBwgaERWh1AIDBAUaCgsaCBMcHyIlKCswNT5DSFFUWVxlam94e4SNkJmipQAAAAAAAAEBAAAAAAAAABwAAAAAAAAAAAAAAAAAAACu" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:46:42.787Z" timestamp="2016-01-27T08:46:42.787Z">
-    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFYoiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:11:32.811Z" timestamp="2016-02-01T06:11:32.811Z">
+    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCqAQkMEBMVFhgZG9QCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNDggPERWQIkb9IAARFYzUAgMEBQ0REg8iR0TgACJHhZgA1AIDBAUUDggUERWT1AIDBAUUERIU1AIDBAUXBwgXERWa1AIDBAUXCgsX1AIDBAUaBwgaERWh1AIDBAUaCgsaCBMcHyIlKCswNT5DSFFUWVxlam94e4SNkJmipQAAAAAAAAEBAAAAAAAAABwAAAAAAAAAAAAAAAAAAACu" to="YnBsaXN0MDCqAQkMEBMVFhgZG9QCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNDggPERWQIkb9IAARFYzUAgMEBQ0REg8iR0TgACJHhZgA1AIDBAUUDggUERWT1AIDBAUUERIU1AIDBAUXDggXERWa1AIDBAUXERIX1AIDBAUaBwgaERWh1AIDBAUaCgsaCBMcHyIlKCswNT5DSFFUWVxlam94e4SNkJmipQAAAAAAAAEBAAAAAAAAABwAAAAAAAAAAAAAAAAAAACu" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:48:10.914Z" timestamp="2016-01-27T08:48:10.914Z">
-    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFYoiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" to="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgNERWY1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" resolved="yes"/>
-    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFZciRuEAACJHKMAAERWT1AIDBAUGCwwJIkc20AAiR28QAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:11:41.623Z" timestamp="2016-02-01T06:11:41.623Z">
+    <change idref="r2" attribute="overtimeString" type="string" from="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiRz3YACJHghQA1AIDBAUNBwgNERWS1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" to="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiR0TgACJHhZgA1AIDBAUNBwgNERWS1AIDBAUNDxANIkc92AAiR4IUAAgNFhkcHyIlKi84PUJLTldcAAAAAAAAAQEAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAGE=" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:48:37.890Z" timestamp="2016-01-27T08:48:37.890Z">
-    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgNERWY1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" to="YnBsaXN0MDCmAQkMDg8R1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWDIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0HCA0RFYrUAgMEBQ0KCw3UAgMEBRAHCBARFZjUAgMEBRAKCxAIDxgbHiEkJywxOj9ETVBZYmUAAAAAAAABAQAAAAAAAAASAAAAAAAAAAAAAAAAAAAAbg==" resolved="yes"/>
-    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFZciRuEAACJHKMAAERWT1AIDBAUGCwwJIkc20AAiR28QAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" to="YnBsaXN0MDCkAQkMD9QCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgOERWXERWT1AIDBAUNCgsOCA0WGRwfIiUqLzg9QktOUQAAAAAAAAEBAAAAAAAAABAAAAAAAAAAAAAAAAAAAABa" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:11:53.065Z" timestamp="2016-02-01T06:11:53.065Z">
+    <change idref="r2" attribute="timeOffString" type="string" from="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFZAiRv0gACJHKMAAERWM1AIDBAUGCwwJIkc92AAiR4IUAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" to="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFZAiRv0gACJHKMAAERWM1AIDBAUGCwwJIkdE4AAiR4WYAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:49:35.735Z" timestamp="2016-01-27T08:49:35.735Z">
-    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCmAQkMDg8R1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWDIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0HCA0RFYrUAgMEBQ0KCw3UAgMEBRAHCBARFZjUAgMEBRAKCxAIDxgbHiEkJywxOj9ETVBZYmUAAAAAAAABAQAAAAAAAAASAAAAAAAAAAAAAAAAAAAAbg==" to="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgNERWY1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:11:58.945Z" timestamp="2016-02-01T06:11:58.945Z">
+    <change idref="r2" attribute="overtimeString" type="string" from="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiR0TgACJHhZgA1AIDBAUNBwgNERWS1AIDBAUNDxANIkc92AAiR4IUAAgNFhkcHyIlKi84PUJLTldcAAAAAAAAAQEAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAGE=" to="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiR0TgACJHhZgA1AIDBAUNBwgNERWS1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:49:57.734Z" timestamp="2016-01-27T08:49:57.734Z">
-    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCkAQkMD9QCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgOERWXERWT1AIDBAUNCgsOCA0WGRwfIiUqLzg9QktOUQAAAAAAAAEBAAAAAAAAABAAAAAAAAAAAAAAAAAAAABa" to="YnBsaXN0MDCmAQkMDg8S1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWCIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0HCA0RFYXUAgMEBQ0KCw3UAgMEBRAHCBERFZcRFZPUAgMEBRAKCxEIDxgbHiEkJywxOj9ETVBZYmVoAAAAAAAAAQEAAAAAAAAAEwAAAAAAAAAAAAAAAAAAAHE=" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:12:14.785Z" timestamp="2016-02-01T06:12:14.785Z">
+    <change idref="r3" attribute="overtimeString" type="string" from="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFZIiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" to="YnBsaXN0MDCkAQkMD9QCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiR0TgACJHhZgA1AIDBAUNDggNERWSIkbhAADUAgMEBQ0QEQ0iRzbQACJHbxAACA0WGRwfIiUqLzg9QktOU1xhAAAAAAAAAQEAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAGY=" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:50:22.655Z" timestamp="2016-01-27T08:50:22.655Z">
-    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCmAQkMDg8S1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWCIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0HCA0RFYXUAgMEBQ0KCw3UAgMEBRAHCBERFZcRFZPUAgMEBRAKCxEIDxgbHiEkJywxOj9ETVBZYmVoAAAAAAAAAQEAAAAAAAAAEwAAAAAAAAAAAAAAAAAAAHE=" to="YnBsaXN0MDCmAQkMDg8S1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWCIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0HCA0RFYXUAgMEBQ0KCw3UAgMEBRAHCBERFZARFYzUAgMEBRAKCxEIDxgbHiEkJywxOj9ETVBZYmVoAAAAAAAAAQEAAAAAAAAAEwAAAAAAAAAAAAAAAAAAAHE=" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:12:28.447Z" timestamp="2016-02-01T06:12:28.447Z">
+    <change idref="r3" attribute="timeOffString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQrUAgMEBQYHCAlSZWRSc3RSZXRSc2QRFZAiRv0gACJHKMAAERWM1AIDBAUGCwwJIkdE4AAiR4WYAAgLFBcaHSAjKC0wOT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:51:04.635Z" timestamp="2016-01-27T08:51:04.635Z">
-    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgNERWY1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" to="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgNERWS1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" resolved="yes"/>
+  <resource-change-set user="Yuhui Huang" date="2016-02-01T06:12:40.128Z" timestamp="2016-02-01T06:12:40.128Z">
+    <change idref="r3" attribute="overtimeString" type="string" from="YnBsaXN0MDCkAQkMD9QCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiR0TgACJHhZgA1AIDBAUNDggNERWSIkbhAADUAgMEBQ0QEQ0iRzbQACJHbxAACA0WGRwfIiUqLzg9QktOU1xhAAAAAAAAAQEAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAGY=" to="YnBsaXN0MDCkAQkMDtQCAwQFBgcIBlJlZFJzdFJldFJzZBEViiJG/SAAIkcowADUAgMEBQYKCwYiR0TgACJHhZgA1AIDBAUNBwgNERWS1AIDBAUNCgsNCA0WGRwfIiUqLzg9QktOAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAFc=" resolved="yes"/>
   </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:51:11.442Z" timestamp="2016-01-27T08:51:11.442Z">
-    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCmAQkMDg8S1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWCIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0HCA0RFYXUAgMEBQ0KCw3UAgMEBRAHCBERFZARFYzUAgMEBRAKCxEIDxgbHiEkJywxOj9ETVBZYmVoAAAAAAAAAQEAAAAAAAAAEwAAAAAAAAAAAAAAAAAAAHE=" to="YnBsaXN0MDCoAQkMDg8SExXUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFYIiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QANQCAwQFDQcIDREVhdQCAwQFDQoLDdQCAwQFEAcIEREVkBEVjNQCAwQFEAoLEdQCAwQFFAcIFBEVk9QCAwQFFAoLFAgRGh0gIyYpLjM8QUZPUltkZ2pzfH8AAAAAAAABAQAAAAAAAAAWAAAAAAAAAAAAAAAAAAAAiA==" resolved="yes"/>
-  </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:51:39.925Z" timestamp="2016-01-27T08:51:39.925Z">
-    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCoAQkMDg8SExXUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFYIiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QANQCAwQFDQcIDREVhdQCAwQFDQoLDdQCAwQFEAcIEREVkBEVjNQCAwQFEAoLEdQCAwQFFAcIFBEVk9QCAwQFFAoLFAgRGh0gIyYpLjM8QUZPUltkZ2pzfH8AAAAAAAABAQAAAAAAAAAWAAAAAAAAAAAAAAAAAAAAiA==" to="YnBsaXN0MDCqAQkMDg8SExUWGNQCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgNERWF1AIDBAUNCgsN1AIDBAUQBwgRERWQERWM1AIDBAUQCgsR1AIDBAUUBwgUERWT1AIDBAUUCgsU1AIDBAUXBwgXERWa1AIDBAUXCgsXCBMcHyIlKCswNT5DSFFUXWZpbHV+gYqTlgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAACf" resolved="yes"/>
-  </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T08:51:55.861Z" timestamp="2016-01-27T08:51:55.861Z">
-    <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCqAQkMDg8SExUWGNQCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNBwgNERWF1AIDBAUNCgsN1AIDBAUQBwgRERWQERWM1AIDBAUQCgsR1AIDBAUUBwgUERWT1AIDBAUUCgsU1AIDBAUXBwgXERWa1AIDBAUXCgsXCBMcHyIlKCswNT5DSFFUXWZpbHV+gYqTlgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAACf" to="YnBsaXN0MDCsAQkMDg8SExUWGBkb1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWCIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0HCA0RFYXUAgMEBQ0KCw3UAgMEBRAHCBERFZARFYzUAgMEBRAKCxHUAgMEBRQHCBQRFZPUAgMEBRQKCxTUAgMEBRcHCBcRFZrUAgMEBRcKCxfUAgMEBRoHCBoRFaHUAgMEBRoKCxoIFR4hJCcqLTI3QEVKU1ZfaGtud4CDjJWYoaqtAAAAAAAAAQEAAAAAAAAAHAAAAAAAAAAAAAAAAAAAALY=" resolved="yes"/>
-  </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T09:08:42.520Z" timestamp="2016-01-27T09:08:42.520Z">
-    <change idref="r3" to="r-1" to-position="2" resolved="yes">
-      <change idref="r3" attribute="name" type="string" to="陈番顺"/>
-    </change>
-  </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T09:20:16.633Z" timestamp="2016-01-27T09:20:16.633Z">
-    <change idref="r3" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFZgiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" resolved="yes"/>
-  </resource-change-set>
-  <resource-change-set user="Yuhui Huang" date="2016-01-27T09:20:53.616Z" timestamp="2016-01-27T09:20:53.616Z">
-    <change idref="r3" attribute="overtimeString" type="string" from="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFZgiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" to="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFZIiRuEAACJHKMAA1AIDBAUGCgsGIkc20AAiR28QAAgLFBcaHSAjKC02OwAAAAAAAAEBAAAAAAAAAAwAAAAAAAAAAAAAAAAAAABA" resolved="yes"/>
-  </resource-change-set>
-  <metadata-change-set user="Yuhui Huang" date="2016-01-27T05:40:40.682Z" timestamp="2016-01-27T05:40:40.682Z">
-    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-01-27T00:00:00.000Z" resolved="yes"/>
-  </metadata-change-set>
-  <metadata-change-set user="Yuhui Huang" date="2016-01-27T05:52:02.942Z" timestamp="2016-01-27T05:52:02.942Z">
-    <change idref="m1" attribute="projectTitle" type="string" to="直播秀 iOS V0.1.0 开发计划" resolved="yes"/>
-  </metadata-change-set>
-  <metadata-change-set user="Yuhui Huang" date="2016-01-27T08:54:41.782Z" timestamp="2016-01-27T08:54:41.782Z">
-    <change idref="m1" attribute="fixedDate" type="date" from="2016-01-27T00:00:00.000Z" to="2016-01-28T01:00:00.000Z" resolved="yes"/>
-  </metadata-change-set>
 </changelog>
