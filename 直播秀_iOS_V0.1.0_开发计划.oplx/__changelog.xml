@@ -35,6 +35,61 @@
     <change idref="t48" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
     <change idref="t49" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T06:22:35.711Z" timestamp="2016-02-01T06:22:35.711Z">
+    <change idref="t7" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t42" attribute="effort" type="real" from="37800" to="43200" resolved="yes"/>
+    <change idref="t43" attribute="effort" type="real" from="37800" to="43200" resolved="yes"/>
+    <change idref="t44" attribute="effort" type="real" from="37800" to="43200" resolved="yes"/>
+    <change idref="t45" attribute="effort" type="real" from="37800" to="43200" resolved="yes"/>
+    <change idref="t46" attribute="effort" type="real" from="6300" to="7200" resolved="yes"/>
+    <change idref="t50" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t51" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t58" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t70" attribute="effort" type="real" from="6300" to="7200" resolved="yes"/>
+    <change idref="t71" attribute="effort" type="real" from="37800" to="43200" resolved="yes"/>
+    <change idref="t72" attribute="effort" type="real" from="25200" to="28800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T06:26:39.815Z" timestamp="2016-02-01T06:26:39.815Z">
+    <change idref="t93" to="t10" to-position="2" resolved="yes">
+      <change idref="t93" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t93" attribute="internalPrerequisitesString" type="string" to="11FS"/>
+      <change idref="t93" attribute="title" type="string" to="我的直播"/>
+    </change>
+    <change idref="t11" attribute="effort" type="real" from="25200" to="28800" resolved="yes"/>
+    <change idref="t12" attribute="effort" type="real" from="25200" to="28800" resolved="yes"/>
+    <change idref="t14" attribute="effort" type="real" from="25200" to="28800" resolved="yes"/>
+    <change idref="t15" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t16" attribute="effort" type="real" from="25200" to="28800" resolved="yes"/>
+    <change idref="t17" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t18" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t19" attribute="effort" type="real" from="6300" to="7200" resolved="yes"/>
+    <change idref="t20" attribute="effort" type="real" from="6300" to="7200" resolved="yes"/>
+    <change idref="t21" attribute="effort" type="real" from="6300" to="7200" resolved="yes"/>
+    <change idref="t24" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t25" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t26" attribute="effort" type="real" from="126000" to="144000" resolved="yes"/>
+    <change idref="t28" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t31" attribute="effort" type="real" from="6300" to="7200" resolved="yes"/>
+    <change idref="t32" attribute="effort" type="real" from="6300" to="7200" resolved="yes"/>
+    <change idref="t33" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t36" attribute="effort" type="real" from="25200" to="28800" resolved="yes"/>
+    <change idref="t57" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t60" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t61" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t62" attribute="effort" type="real" from="6300" to="7200" resolved="yes"/>
+    <change idref="t63" attribute="effort" type="real" from="6300" to="7200" resolved="yes"/>
+    <change idref="t65" attribute="effort" type="real" from="37800" to="43200" resolved="yes"/>
+    <change idref="t66" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t68" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t69" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t79" attribute="effort" type="real" from="12600" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T06:27:00.258Z" timestamp="2016-02-01T06:27:00.258Z">
+    <change idref="t38" attribute="effort" type="real" from="126000" to="144000" resolved="yes"/>
+    <change idref="t73" attribute="effort" type="real" from="25200" to="28800" resolved="yes"/>
+    <change idref="t74" attribute="effort" type="real" from="126000" to="144000" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2016-02-01T06:09:19.387Z" timestamp="2016-02-01T06:09:19.387Z">
     <change idref="r1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="-;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;-" resolved="yes"/>
   </resource-change-set>

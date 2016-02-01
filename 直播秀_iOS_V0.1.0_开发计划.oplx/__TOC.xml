@@ -3,12 +3,11 @@
   <window x="46" y="0" w="1384" h="877">
     <editing-scenario>p71Pql8D9r6</editing-scenario>
     <view>task</view>
-    <current-filter>hCcZ8Kw8JzP</current-filter>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1082</split-view-divider-position>
-      <outline x="0" y="0" w="1082" h="760">
+      <outline x="0" y="818" w="1082" h="781">
         <column name="Notes" width="20"/>
         <column name="Title" width="245"/>
         <column name="Assigned" width="63"/>
@@ -21,8 +20,7 @@
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
         <column name="Attachments" width="20"/>
-        <expanded-items idrefs="t41 t13 t81 t64 t47 t1 t39 t23 t59 t37 t10 t29"/>
-        <selected-items-at-filter-time idrefs="t8 t72 t49 t50 t44 t70 t58 t42 t45 t51 t71 t48 t43 t7 t46"/>
+        <expanded-items idrefs="t41 t13 t81 t64 t9 t47 t1 t39 t23 t59 t54 t37 t10 t29"/>
       </outline>
       <gantt-view x="0" y="0" w="0" h="0">
         <view-mode>actual</view-mode>
@@ -141,7 +139,7 @@
   </window>
   <project>
     <title>直播秀 iOS V0.1.0 开发计划</title>
-    <next-task-id>93</next-task-id>
+    <next-task-id>94</next-task-id>
     <next-resource-id>4</next-resource-id>
     <scenario id="p71Pql8D9r6" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="true"/>
@@ -149,7 +147,7 @@
     <critical-path-slack>0</critical-path-slack>
     <currency-format>CN¥1,234.56</currency-format>
     <duration-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true"/>
-    <effort-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" hours="true" days="true"/>
+    <effort-format hours-per-day="8" hours-per-week="40" hours-per-month="160" hours-per-year="1920" days="true"/>
     <base-style>
       <style/>
     </base-style>
