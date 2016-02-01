@@ -90,6 +90,56 @@
     <change idref="t73" attribute="effort" type="real" from="25200" to="28800" resolved="yes"/>
     <change idref="t74" attribute="effort" type="real" from="126000" to="144000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T10:11:36.596Z" timestamp="2016-02-01T10:11:36.596Z">
+    <change idref="t58" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t58" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T10:24:36.056Z" timestamp="2016-02-01T10:24:36.056Z">
+    <change idref="t11" attribute="internalEffortDone" type="real" from="0" to="25919.99931335449" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T10:24:56.887Z" timestamp="2016-02-01T10:24:56.887Z">
+    <change idref="t11" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-01T11:02:11.146Z" timestamp="2016-02-01T11:02:11.146Z">
+    <change idref="t11" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = 0;
+        r = 0;
+    };
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t11" attribute="internalEffortDone" type="real" from="25919.99931335449" to="28800" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2016-02-01T06:09:19.387Z" timestamp="2016-02-01T06:09:19.387Z">
     <change idref="r1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="-;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;32400,43200,50400,68400;-" resolved="yes"/>
   </resource-change-set>

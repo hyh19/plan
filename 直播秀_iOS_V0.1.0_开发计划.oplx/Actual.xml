@@ -220,7 +220,17 @@
   <task id="t11">
     <title>我的主页（主界面）</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2016-02-01T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r2"/>
     <start-no-earlier-than>2016-02-01T01:00:00.000Z</start-no-earlier-than>
   </task>
@@ -496,6 +506,16 @@
   <task id="t58">
     <title>直播广场（主界面）</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r1"/>
   </task>
   <task id="t59">

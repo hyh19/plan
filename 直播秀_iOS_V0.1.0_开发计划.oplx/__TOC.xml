@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="46" y="0" w="1384" h="877">
+  <window x="49" y="0" w="1384" h="877">
     <editing-scenario>p71Pql8D9r6</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1082</split-view-divider-position>
-      <outline x="0" y="818" w="1082" h="781">
+      <split-view-divider-position>1149</split-view-divider-position>
+      <outline x="0" y="13" w="1149" h="781">
         <column name="Notes" width="20"/>
-        <column name="Title" width="245"/>
+        <column name="Title" width="309"/>
         <column name="Assigned" width="63"/>
         <column name="Start" width="125"/>
         <column name="End" width="130"/>
@@ -22,7 +22,7 @@
         <column name="Attachments" width="20"/>
         <expanded-items idrefs="t41 t13 t81 t64 t9 t47 t1 t39 t23 t59 t54 t37 t10 t29"/>
       </outline>
-      <gantt-view x="0" y="0" w="0" h="0">
+      <gantt-view x="0" y="13" w="233" h="781">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
