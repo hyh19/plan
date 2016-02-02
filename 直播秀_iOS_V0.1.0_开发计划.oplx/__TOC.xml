@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="49" y="0" w="1384" h="877">
+  <window x="42" y="-0" w="1398" h="875">
     <editing-scenario>p71Pql8D9r6</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1149</split-view-divider-position>
-      <outline x="0" y="13" w="1149" h="781">
+      <split-view-divider-position>1251</split-view-divider-position>
+      <outline x="0" y="0" w="1251" h="779">
         <column name="Notes" width="20"/>
-        <column name="Title" width="309"/>
+        <column name="Title" width="326"/>
         <column name="Assigned" width="63"/>
         <column name="Start" width="125"/>
         <column name="End" width="130"/>
@@ -20,9 +20,9 @@
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
         <column name="Attachments" width="20"/>
-        <expanded-items idrefs="t41 t13 t81 t64 t9 t47 t1 t39 t23 t59 t54 t37 t10 t29"/>
+        <expanded-items idrefs="t41 t13 t9 t81 t47 t64 t1 t39 t23 t59 t54 t37 t10 t29"/>
       </outline>
-      <gantt-view x="0" y="13" w="233" h="781">
+      <gantt-view x="-54" y="0" w="145" h="779">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -54,7 +54,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="86400">
+        <scale scale-name="Automatic" full-day-width="11.0544">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -69,14 +69,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>659</split-view-divider-position>
-      <outline x="0" y="0" w="659" h="760">
+      <outline x="0" y="0" w="659" h="781">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r2"/>
       </outline>
-      <timeline x="-70" y="0" w="695" h="760">
+      <timeline x="-70" y="0" w="695" h="781">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -120,7 +120,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="577">
+      <outline x="0" y="0" w="290" h="598">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="175"/>
