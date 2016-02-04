@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2016-02-02T01:37:14.534Z" timestamp="2016-02-02T01:37:14.534Z">
-    <change idref="t93" from="t10" from-position="2" resolved="yes">
-      <change idref="t93" attribute="internalAssignments" type="string" from="" to="2"/>
-      <change idref="t93" attribute="internalPrerequisitesString" type="string" to="11FS"/>
-      <change idref="t93" attribute="title" type="string" to="我的直播"/>
-    </change>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2016-02-02T10:22:45.342Z" timestamp="2016-02-02T10:22:45.342Z">
     <change idref="t7" attribute="styleDict" type="dict" to="{
     &quot;font-fill&quot; =     {
@@ -85,6 +78,9 @@
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
     <change idref="t15" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-04T01:43:00.226Z" timestamp="2016-02-04T01:43:00.226Z">
+    <change idref="t50" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-04T01:00:00.000Z" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2016-02-02T10:23:51.400Z" timestamp="2016-02-02T10:23:51.400Z">
     <change idref="r1" attribute="timeOffString" type="string" from="YnBsaXN0MDCqAQkMEBMVFhgZG9QCAwQFBgcIBlJlZFJzdFJldFJzZBEVgiJG4QAAIkcowADUAgMEBQYKCwYiRzbQACJHbxAA1AIDBAUNDggPERWQIkb9IAARFYzUAgMEBQ0REg8iR0TgACJHhZgA1AIDBAUUDggUERWT1AIDBAUUERIU1AIDBAUXDggXERWa1AIDBAUXERIX1AIDBAUaBwgaERWh1AIDBAUaCgsaCBMcHyIlKCswNT5DSFFUWVxlam94e4SNkJmipQAAAAAAAAEBAAAAAAAAABwAAAAAAAAAAAAAAAAAAACu" to="YnBsaXN0MDCsAQkMDxIVFhgZGxwe1AIDBAUGBwgGUmVkUnN0UmV0UnNkERWCIkbhAAAiRyjAANQCAwQFBgoLBiJHNtAAIkdvEADUAgMEBQ0OCA0RFYciRv0gANQCAwQFDRARDSJHROAAIkeFmADUAgMEBRMOCBQRFZARFYzUAgMEBRMQERTUAgMEBRcOCBcRFZPUAgMEBRcQERfUAgMEBRoOCBoRFZrUAgMEBRoQERrUAgMEBR0HCB0RFaHUAgMEBR0KCx0IFR4hJCcqLTI3QEVKU1ZbZGlud3p9ho+Sm6SnsLm8AAAAAAAAAQEAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAMU=" resolved="yes"/>
