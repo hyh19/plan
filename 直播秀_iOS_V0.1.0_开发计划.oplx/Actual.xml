@@ -284,12 +284,32 @@
   <task id="t14">
     <title>我的关注</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t12"/>
     <assignment idref="r2"/>
   </task>
   <task id="t15">
     <title>我的粉丝</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t14"/>
     <assignment idref="r2"/>
   </task>

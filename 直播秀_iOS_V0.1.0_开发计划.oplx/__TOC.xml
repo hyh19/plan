@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="42" y="-0" w="1398" h="875">
+  <window x="53" y="0" w="1393" h="875">
     <editing-scenario>p71Pql8D9r6</editing-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1251</split-view-divider-position>
-      <outline x="0" y="0" w="1251" h="779">
+      <split-view-divider-position>1240</split-view-divider-position>
+      <outline x="0" y="8" w="1240" h="779">
         <column name="Notes" width="20"/>
-        <column name="Title" width="326"/>
+        <column name="Title" width="403"/>
         <column name="Assigned" width="63"/>
         <column name="Start" width="125"/>
         <column name="End" width="130"/>
@@ -20,9 +20,9 @@
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
         <column name="Attachments" width="20"/>
-        <expanded-items idrefs="t41 t13 t9 t81 t47 t64 t1 t39 t23 t59 t54 t37 t10 t29"/>
+        <expanded-items idrefs="t41 t13 t81 t64 t9 t47 t1 t39 t23 t59 t54 t37 t10 t29"/>
       </outline>
-      <gantt-view x="-54" y="0" w="145" h="779">
+      <gantt-view x="-55" y="8" w="151" h="779">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -54,7 +54,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="11.0544">
+        <scale scale-name="Automatic" full-day-width="2.65763">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
