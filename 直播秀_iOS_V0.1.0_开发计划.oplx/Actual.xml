@@ -322,6 +322,16 @@
   <task id="t17">
     <title>编辑资料（主界面）</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r2"/>
   </task>
   <task id="t18">
@@ -358,11 +368,31 @@
   <task id="t24">
     <title>私信（主界面）</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r2"/>
   </task>
   <task id="t25">
     <title>未关注人消息</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t24"/>
     <assignment idref="r2"/>
   </task>
@@ -532,13 +562,33 @@
   <task id="t50">
     <title>最新直播（主界面）</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <start-constraint-date>2016-02-04T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r1"/>
     <start-no-earlier-than>2016-02-04T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t51">
     <title>达人推荐</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t50"/>
     <assignment idref="r1"/>
   </task>
