@@ -337,24 +337,64 @@
   <task id="t18">
     <title>选择头像</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t17"/>
     <assignment idref="r2"/>
   </task>
   <task id="t19">
     <title>编辑昵称</title>
     <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t18"/>
     <assignment idref="r2"/>
   </task>
   <task id="t20">
     <title>选择性别</title>
     <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t19"/>
     <assignment idref="r2"/>
   </task>
   <task id="t21">
     <title>编辑个性签名</title>
     <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t20"/>
     <assignment idref="r2"/>
   </task>
@@ -633,6 +673,16 @@
   <task id="t60">
     <title>我的收益（主界面）</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r2"/>
   </task>
   <task id="t61">
@@ -688,6 +738,16 @@
   <task id="t70">
     <title>观众列表</title>
     <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <assignment idref="r1"/>
   </task>
   <task id="t71">

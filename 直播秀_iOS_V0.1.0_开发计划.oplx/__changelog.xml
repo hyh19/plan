@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2016-02-04T01:23:52.686Z" timestamp="2016-02-04T01:23:52.686Z">
-    <change idref="t14" attribute="styleDict" type="dict" to="{
+  <task-change-set user="Yuhui Huang" date="2016-02-05T10:32:15.958Z" timestamp="2016-02-05T10:32:15.958Z">
+    <change idref="t18" attribute="styleDict" type="dict" to="{
     &quot;font-fill&quot; =     {
         b = 0;
         g = 0;
@@ -15,60 +15,58 @@
     };
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
-    <change idref="t14" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
-    <change idref="t15" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t15" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t18" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-02-04T01:43:00.226Z" timestamp="2016-02-04T01:43:00.226Z">
-    <change idref="t50" attribute="noEarlierThanConstraintDate" type="date" to="2016-02-04T01:00:00.000Z" resolved="yes"/>
+  <task-change-set user="Yuhui Huang" date="2016-02-05T10:34:30.130Z" timestamp="2016-02-05T10:34:30.130Z">
+    <change idref="t19" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t19" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-02-04T10:35:21.615Z" timestamp="2016-02-04T10:35:21.615Z">
-    <change idref="t50" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t50" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
-    <change idref="t51" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t51" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+  <task-change-set user="Yuhui Huang" date="2016-02-05T10:36:38.420Z" timestamp="2016-02-05T10:36:38.420Z">
+    <change idref="t20" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+    <change idref="t21" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-02-04T10:37:51.283Z" timestamp="2016-02-04T10:37:51.283Z">
-    <change idref="t24" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+  <task-change-set user="Yuhui Huang" date="2016-02-05T10:36:45.540Z" timestamp="2016-02-05T10:36:45.540Z">
+    <change idref="t20" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t21" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-02-04T10:38:50.228Z" timestamp="2016-02-04T10:38:50.228Z">
-    <change idref="t17" attribute="styleDict" type="dict" to="{
+  <task-change-set user="Yuhui Huang" date="2016-02-06T14:26:21.428Z" timestamp="2016-02-06T14:26:21.428Z">
+    <change idref="t70" attribute="styleDict" type="dict" to="{
     &quot;font-fill&quot; =     {
         b = 0;
         g = 0;
@@ -81,8 +79,10 @@
     };
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
-    <change idref="t17" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
-    <change idref="t24" attribute="styleDict" type="dict" to="{
+    <change idref="t70" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-06T14:31:38.723Z" timestamp="2016-02-06T14:31:38.723Z">
+    <change idref="t60" attribute="styleDict" type="dict" to="{
     &quot;font-fill&quot; =     {
         b = 0;
         g = 0;
@@ -95,19 +95,6 @@
     };
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
-    <change idref="t25" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t25" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t60" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
   </task-change-set>
 </changelog>

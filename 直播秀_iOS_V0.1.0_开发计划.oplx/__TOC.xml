@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1440" y="-180" w="1920" h="1025">
+  <window x="1440" y="-180" w="1920" h="1024">
     <editing-scenario>p71Pql8D9r6</editing-scenario>
     <view>task</view>
-    <current-filter>m5DQoto3m8W</current-filter>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1547</split-view-divider-position>
-      <outline x="0" y="0" w="1547" h="981">
+      <split-view-divider-position>1410</split-view-divider-position>
+      <outline x="0" y="298" w="1410" h="1001">
         <column name="Notes" width="20"/>
-        <column name="Title" width="367"/>
+        <column name="Title" width="573"/>
         <column name="Assigned" width="63"/>
         <column name="Start" width="125"/>
         <column name="End" width="130"/>
@@ -22,9 +21,8 @@
         <column name="Dependents" width="100"/>
         <column name="Attachments" width="20"/>
         <expanded-items idrefs="t29 t13 t81 t64 t47 t9 t1 t39 t23 t59 t54 t37 t10 t41"/>
-        <selected-items-at-filter-time idrefs="t62 t21 t34 t63 t18 t26 t68 t14 t35 t27 t19 t31 t60 t15 t69 t36 t65 t28 t11 t57 t32 t61 t24 t16 t66 t20 t12 t79 t33 t25 t17"/>
       </outline>
-      <gantt-view x="-55" y="0" w="371" h="981">
+      <gantt-view x="-34" y="298" w="508" h="1001">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -56,7 +54,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="2.65763">
+        <scale scale-name="Automatic" full-day-width="444.425">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -141,7 +139,7 @@
   </window>
   <project>
     <title>直播秀 iOS V0.1.0 开发计划</title>
-    <next-task-id>95</next-task-id>
+    <next-task-id>96</next-task-id>
     <next-resource-id>4</next-resource-id>
     <scenario id="p71Pql8D9r6" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="true"/>
