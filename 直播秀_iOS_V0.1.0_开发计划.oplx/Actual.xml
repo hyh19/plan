@@ -533,8 +533,18 @@
     <prerequisite-task idref="t38"/>
   </task>
   <task id="t42">
-    <title>消息流</title>
+    <title>消息墙</title>
     <effort>43200</effort>
+    <effort-done>43200</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t72"/>
     <assignment idref="r1"/>
   </task>
@@ -757,7 +767,7 @@
     <assignment idref="r1"/>
   </task>
   <task id="t72">
-    <title>观众信息</title>
+    <title>观众小主页</title>
     <effort>28800</effort>
     <prerequisite-task idref="t70"/>
     <assignment idref="r1"/>

@@ -1,70 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2016-02-05T10:32:15.958Z" timestamp="2016-02-05T10:32:15.958Z">
-    <change idref="t18" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t18" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-02-05T10:34:30.130Z" timestamp="2016-02-05T10:34:30.130Z">
-    <change idref="t19" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t19" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-02-05T10:36:38.420Z" timestamp="2016-02-05T10:36:38.420Z">
-    <change idref="t20" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
-    <change idref="t21" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-02-05T10:36:45.540Z" timestamp="2016-02-05T10:36:45.540Z">
-    <change idref="t20" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t21" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = 0;
-        r = 1;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2016-02-06T14:26:21.428Z" timestamp="2016-02-06T14:26:21.428Z">
     <change idref="t70" attribute="styleDict" type="dict" to="{
     &quot;font-fill&quot; =     {
@@ -96,5 +32,31 @@
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
     <change idref="t60" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-08T04:50:09.680Z" timestamp="2016-02-08T04:50:09.680Z">
+    <change idref="t42" attribute="title" type="string" from="消息流" to="消息墙" resolved="yes"/>
+    <change idref="t42" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = 0;
+        r = 1;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t72" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-08T04:50:22.065Z" timestamp="2016-02-08T04:50:22.065Z">
+    <change idref="t42" attribute="internalEffortDone" type="real" from="0" to="43200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-08T04:50:31.141Z" timestamp="2016-02-08T04:50:31.141Z">
+    <change idref="t72" attribute="internalEffortDone" type="real" from="28800" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-02-08T04:54:04.142Z" timestamp="2016-02-08T04:54:04.142Z">
+    <change idref="t72" attribute="title" type="string" from="观众信息" to="观众小主页" resolved="yes"/>
   </task-change-set>
 </changelog>

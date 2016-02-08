@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1440" y="-180" w="1920" h="1024">
+  <window x="1444" y="-180" w="1916" h="1057">
     <editing-scenario>p71Pql8D9r6</editing-scenario>
     <view>task</view>
+    <current-filter>hCcZ8Kw8JzP</current-filter>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1410</split-view-divider-position>
-      <outline x="0" y="298" w="1410" h="1001">
+      <split-view-divider-position>1529</split-view-divider-position>
+      <outline x="0" y="0" w="1529" h="940">
         <column name="Notes" width="20"/>
-        <column name="Title" width="573"/>
+        <column name="Title" width="692"/>
         <column name="Assigned" width="63"/>
         <column name="Start" width="125"/>
         <column name="End" width="130"/>
@@ -20,9 +21,10 @@
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
         <column name="Attachments" width="20"/>
-        <expanded-items idrefs="t29 t13 t81 t64 t47 t9 t1 t39 t23 t59 t54 t37 t10 t41"/>
+        <expanded-items idrefs="t41 t13 t81 t64 t47 t9 t1 t39 t23 t59 t54 t37 t10 t29"/>
+        <selected-items-at-filter-time idrefs="t8 t72 t49 t44 t50 t58 t70 t42 t51 t45 t71 t48 t43 t7 t46"/>
       </outline>
-      <gantt-view x="-34" y="298" w="508" h="1001">
+      <gantt-view x="-36" y="0" w="385" h="940">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -139,7 +141,7 @@
   </window>
   <project>
     <title>直播秀 iOS V0.1.0 开发计划</title>
-    <next-task-id>96</next-task-id>
+    <next-task-id>97</next-task-id>
     <next-resource-id>4</next-resource-id>
     <scenario id="p71Pql8D9r6" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="true"/>
