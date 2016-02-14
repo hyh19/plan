@@ -89,8 +89,6 @@
         <event start="2016-02-03T06:00:00.000Z" end="2016-02-03T11:00:00.000Z" sd="5511" st="50400" ed="5511" et="68400"/>
         <event start="2016-02-08T01:00:00.000Z" end="2016-02-12T04:00:00.000Z" sd="5516" st="32400" ed="5520" et="43200"/>
         <event start="2016-02-08T06:00:00.000Z" end="2016-02-12T11:00:00.000Z" sd="5516" st="50400" ed="5520" et="68400"/>
-        <event start="2016-02-15T01:00:00.000Z" end="2016-02-15T04:00:00.000Z" sd="5523" st="32400" ed="5523" et="43200"/>
-        <event start="2016-02-15T06:00:00.000Z" end="2016-02-15T11:00:00.000Z" sd="5523" st="50400" ed="5523" et="68400"/>
         <event start="2016-02-22T01:00:00.000Z" end="2016-02-22T04:00:00.000Z" sd="5530" st="32400" ed="5530" et="43200"/>
         <event start="2016-02-22T06:00:00.000Z" end="2016-02-22T11:00:00.000Z" sd="5530" st="50400" ed="5530" et="68400"/>
         <event start="2016-02-29T00:00:00.000Z" end="2016-02-29T04:00:00.000Z" sd="5537" st="28800" ed="5537" et="43200"/>
@@ -445,6 +443,11 @@
   <task id="t27">
     <title>我的等级</title>
     <effort>0</effort>
+    <style>
+      <value key="text-background-color">
+        <color r="0" g="1" b="0"/>
+      </value>
+    </style>
     <prerequisite-task idref="t59"/>
     <assignment idref="r2"/>
   </task>
@@ -484,12 +487,22 @@
   <task id="t34">
     <title>关于映客</title>
     <effort>0</effort>
+    <style>
+      <value key="text-background-color">
+        <color r="0" g="1" b="0"/>
+      </value>
+    </style>
     <prerequisite-task idref="t33"/>
     <assignment idref="r2"/>
   </task>
   <task id="t35">
     <title>用户反馈</title>
     <effort>0</effort>
+    <style>
+      <value key="text-background-color">
+        <color r="0" g="1" b="0"/>
+      </value>
+    </style>
     <prerequisite-task idref="t34"/>
     <assignment idref="r2"/>
   </task>
@@ -704,12 +717,22 @@
   <task id="t62">
     <title>提现记录</title>
     <effort>7200</effort>
+    <style>
+      <value key="text-background-color">
+        <color r="1" g="1" b="0"/>
+      </value>
+    </style>
     <prerequisite-task idref="t63"/>
     <assignment idref="r2"/>
   </task>
   <task id="t63">
     <title>微信提现</title>
     <effort>7200</effort>
+    <style>
+      <value key="text-background-color">
+        <color r="1" g="1" b="0"/>
+      </value>
+    </style>
     <prerequisite-task idref="t61"/>
     <assignment idref="r2"/>
   </task>
@@ -769,6 +792,16 @@
   <task id="t72">
     <title>观众小主页</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t70"/>
     <assignment idref="r1"/>
   </task>
@@ -799,6 +832,25 @@
     <child-task idref="t37"/>
     <child-task idref="t41"/>
     <child-task idref="t54"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>高亮说明：</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>黄色：暂无法开发</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <lit>绿色：可重用模块</lit>
+          </run>
+        </p>
+      </text>
+    </note>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
