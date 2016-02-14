@@ -72,14 +72,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>659</split-view-divider-position>
-      <outline x="0" y="0" w="659" h="961">
+      <outline x="0" y="0" w="659" h="940">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r2"/>
       </outline>
-      <timeline x="-70" y="0" w="1227" h="961">
+      <timeline x="-70" y="0" w="1227" h="940">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -123,7 +123,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="778">
+      <outline x="0" y="0" w="290" h="757">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="175"/>
