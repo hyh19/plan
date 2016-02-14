@@ -443,6 +443,7 @@
   <task id="t27">
     <title>我的等级</title>
     <effort>0</effort>
+    <effort-done>1</effort-done>
     <style>
       <value key="text-background-color">
         <color r="0" g="1" b="0"/>
@@ -454,8 +455,9 @@
   <task id="t28">
     <title>我的钻石</title>
     <effort>14400</effort>
-    <prerequisite-task idref="t27"/>
+    <start-constraint-date>2016-02-15T01:00:00.000Z</start-constraint-date>
     <assignment idref="r2"/>
+    <start-no-earlier-than>2016-02-15T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t29">
     <title>设置</title>
@@ -487,6 +489,7 @@
   <task id="t34">
     <title>关于映客</title>
     <effort>0</effort>
+    <effort-done>1</effort-done>
     <style>
       <value key="text-background-color">
         <color r="0" g="1" b="0"/>
@@ -498,6 +501,7 @@
   <task id="t35">
     <title>用户反馈</title>
     <effort>0</effort>
+    <effort-done>1</effort-done>
     <style>
       <value key="text-background-color">
         <color r="0" g="1" b="0"/>
@@ -521,9 +525,9 @@
   <task id="t38">
     <title>视频层</title>
     <effort>144000</effort>
-    <start-constraint-date>2016-02-01T01:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2016-02-15T01:00:00.000Z</start-constraint-date>
     <assignment idref="r3"/>
-    <start-no-earlier-than>2016-02-01T01:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2016-02-15T01:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t39">
     <title>信息层</title>
@@ -713,12 +717,23 @@
   <task id="t61">
     <title>兑换界面</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color r="1" g="0" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
     <prerequisite-task idref="t60"/>
     <assignment idref="r2"/>
   </task>
   <task id="t62">
     <title>提现记录</title>
     <effort>7200</effort>
+    <effort-done>7200</effort-done>
     <style>
       <value key="text-background-color">
         <color r="1" g="1" b="0"/>
@@ -730,6 +745,7 @@
   <task id="t63">
     <title>微信提现</title>
     <effort>7200</effort>
+    <effort-done>7200</effort-done>
     <style>
       <value key="text-background-color">
         <color r="1" g="1" b="0"/>
@@ -840,7 +856,7 @@
           <run>
             <style>
               <value key="font-fill">
-                <color r="0" g="0" b="0"/>
+                <color r="0" g="0" b="1"/>
               </value>
               <value key="font-size">13</value>
               <value key="font-weight">9</value>
@@ -852,7 +868,7 @@
           <run>
             <style>
               <value key="font-fill">
-                <color r="0" g="0" b="0"/>
+                <color r="0" g="0" b="1"/>
               </value>
               <value key="font-size">13</value>
               <value key="font-weight">9</value>
@@ -862,7 +878,7 @@
           <run>
             <style>
               <value key="font-fill">
-                <color r="0" g="0" b="0"/>
+                <color r="0" g="0" b="1"/>
               </value>
               <value key="font-size">13</value>
               <value key="font-weight">9</value>
@@ -874,7 +890,7 @@
           <run>
             <style>
               <value key="font-fill">
-                <color r="0" g="0" b="0"/>
+                <color r="0" g="0" b="1"/>
               </value>
               <value key="font-size">13</value>
               <value key="font-weight">9</value>
@@ -884,7 +900,7 @@
           <run>
             <style>
               <value key="font-fill">
-                <color r="0" g="0" b="0"/>
+                <color r="0" g="0" b="1"/>
               </value>
               <value key="font-size">13</value>
               <value key="font-weight">9</value>
